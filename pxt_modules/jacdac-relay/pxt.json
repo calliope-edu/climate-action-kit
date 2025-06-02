@@ -1,0 +1,26 @@
+{
+    "name": "jacdac-relay",
+    "version": "1.9.32",
+    "description": "A switching relay.",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "files": [
+        "constants.ts",
+        "client.g.ts",
+        "_locales/de/jacdac-relay-strings.json"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    },
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker",
+        "calliopemini"
+    ]
+}

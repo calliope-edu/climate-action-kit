@@ -1,0 +1,25 @@
+{
+    "name": "jacdac-light-level",
+    "version": "1.9.32",
+    "description": "A sensor that measures luminosity level.",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "files": [
+        "constants.ts",
+        "client.g.ts",
+        "clients.ts",
+        "_locales/de/jacdac-light-level-strings.json"
+    ],
+    "testFiles": [],
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    },
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker",
+        "calliopemini"
+    ]
+}

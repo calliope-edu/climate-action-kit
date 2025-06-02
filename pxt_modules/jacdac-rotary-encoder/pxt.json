@@ -1,0 +1,27 @@
+{
+    "name": "jacdac-rotary-encoder",
+    "version": "1.9.32",
+    "description": "An incremental rotary encoder - converts angular motion of a shaft to digital signal.",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "files": [
+        "constants.ts",
+        "client.ts",
+        "clients.ts",
+        "_locales/de/jacdac-rotary-encoder-strings.json"
+    ],
+    "testFiles": [
+        "test.microbit.ts"
+    ],
+    "fileDependencies": {
+        "test.microbit.ts": "target:microbit"
+    },
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker",
+        "calliopemini"
+    ]
+}

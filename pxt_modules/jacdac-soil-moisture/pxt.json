@@ -1,0 +1,25 @@
+{
+    "name": "jacdac-soil-moisture",
+    "version": "1.9.32",
+    "description": "A soil moisture sensor.",
+    "dependencies": {
+        "core": "*",
+        "jacdac": "github:microsoft/pxt-jacdac"
+    },
+    "files": [
+        "constants.ts",
+        "client.g.ts",
+        "clients.ts",
+        "_locales/de/jacdac-soil-moisture-strings.json"
+    ],
+    "testFiles": [],
+    "testDependencies": {
+        "nucleo-f411re": "*"
+    },
+    "supportedTargets": [
+        "arcade",
+        "microbit",
+        "maker",
+        "calliopemini"
+    ]
+}
