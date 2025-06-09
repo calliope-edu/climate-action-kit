@@ -1,19 +1,19 @@
 {
     "name": "pxt-fwd-climate-action",
     "version": "1.0.0",
-    "description": "Blocks for Forward Education's full library of Jacdac modules.",
+    "description": "Forward Education's Climate Action Kit extension, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
-        "fwd-dial": "github:Forward-Education/pxt-fwd-modules/fwd-dial#v1.0.1",
-        "fwd-led-ring": "github:Forward-Education/pxt-fwd-modules/fwd-led-ring#v1.0.1",
-        "fwd-line": "github:Forward-Education/pxt-fwd-modules/fwd-line#v1.0.1",
-        "fwd-moisture": "github:Forward-Education/pxt-fwd-modules/fwd-moisture#v1.0.1",
-        "fwd-pump": "github:Forward-Education/pxt-fwd-modules/fwd-pump#v1.0.1",
-        "fwd-servo-continuous": "github:Forward-Education/pxt-fwd-modules/fwd-servo-continuous#v1.0.1",
-        "fwd-servo-positional": "github:Forward-Education/pxt-fwd-modules/fwd-servo-positional#v1.0.1",
-        "fwd-solar": "github:Forward-Education/pxt-fwd-modules/fwd-solar#v1.0.1",
-        "fwd-sonar": "github:Forward-Education/pxt-fwd-modules/fwd-sonar#v1.0.1",
-        "fwd-touch": "github:Forward-Education/pxt-fwd-modules/fwd-touch#v1.0.1"
+        "fwd-dial": "github:Forward-Education/pxt-fwd-modules/fwd-dial#v1.0.4",
+        "fwd-led-ring": "github:Forward-Education/pxt-fwd-modules/fwd-led-ring#v1.0.4",
+        "fwd-line": "github:Forward-Education/pxt-fwd-modules/fwd-line#v1.0.4",
+        "fwd-moisture": "github:Forward-Education/pxt-fwd-modules/fwd-moisture#v1.0.4",
+        "fwd-pump": "github:Forward-Education/pxt-fwd-modules/fwd-pump#v1.0.4",
+        "fwd-servo-continuous": "github:Forward-Education/pxt-fwd-modules/fwd-servo-continuous#v1.0.4",
+        "fwd-servo-positional": "github:Forward-Education/pxt-fwd-modules/fwd-servo-positional#v1.0.4",
+        "fwd-solar": "github:Forward-Education/pxt-fwd-modules/fwd-solar#v1.0.4",
+        "fwd-sonar": "github:Forward-Education/pxt-fwd-modules/fwd-sonar#v1.0.4",
+        "fwd-touch": "github:Forward-Education/pxt-fwd-modules/fwd-touch#v1.0.4"
     },
     "files": [
         
