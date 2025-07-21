@@ -15,7 +15,7 @@ These blocks require the [micro:bit V2](/device/v2). If you use them with a V1 m
 ## Example Usage
 
 Our learning systems are designed to simplify teaching coding and computer science for educators at all experience levels.
-Our Smart Solder Kit can be used on its own or joined with other kits to access our wider library of sensors, motors, lights, and buttons.
+Our Climate Action Kit can be used on its own or joined with other kits to access our wider library of sensors, motors, lights, and buttons.
 Check out our libraries of [lessons](https://learn.forwardedu.com/lesson-library), [projects](https://learn.forwardedu.com/projects/), and [tutorials](https://learn.forwardedu.com/tutorials/). Samples of coding with the Climate Action Kit are found below.
 
 In this code we are using a light sensor and LED ring to power a beach light that is more environnmentally friendly, particularly in the context of it's effects on sea turtle reproduction. The LED ring uses red light instead of white light because turtles aren't impacted by red light. To reduce power use, it automatically turns on and off according to the brightness of the environment. The brightness threshold used in the code may need to be adjusted to suit your environment.
