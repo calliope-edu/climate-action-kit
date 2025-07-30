@@ -7,22 +7,22 @@ fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.0.3
 ## Step 1 @showdialog
 
 Welcome to Mission on the Moon - Sonar Avoidance
-![built project](https://climate-action-kits.github.io/pxt-fwd-edu/tutorial-assets/project-electriccar-400.png)
+![built project](https://forward-education.github.io/pxt-climate-action/tutorial-assets/project-electriccar-400.png)
 
 ## Step 2 @showdialog
 
 Plug your USB cable into the micro:bit.
-![breakout board](https://climate-action-kits.github.io/pxt-fwd-edu/tutorial-assets/connect-microbit.gif)
+![breakout board](https://forward-education.github.io/pxt-climate-action/tutorial-assets/connect-microbit.gif)
 
 ## Step 3 @showdialog
 
 Insert it into the Climate Action Kit board.
-![breakout board](https://climate-action-kits.github.io/pxt-fwd-edu/tutorial-assets/breakout-resized.png)
+![breakout board](https://forward-education.github.io/pxt-climate-action/tutorial-assets/breakout-resized.png)
 
 ## Step 4 @showhint
 
 Click three dots besides `|Download|` button and follow the steps to pair your micro:bit.
-![pair gif](https://climate-action-kits.github.io/pxt-fwd-edu/tutorial-assets/pairmicrobit-280x203.gif)
+![pair gif](https://forward-education.github.io/pxt-climate-action/tutorial-assets/pairmicrobit-280x203.gif)
 
 ## Step 5
 

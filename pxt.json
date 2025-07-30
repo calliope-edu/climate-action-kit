@@ -1,7 +1,7 @@
 {
     "name": "fwd-climate-action",
     "version": "1.0.3",
-    "description": "Forward Education's Climate Action Kit extension, micro:bit V2 only.",
+    "description": "Forward Education's Climate Action Kit BETA extension, micro:bit V2 only.",
     "license": "MIT",
     "dependencies": {
         "fwd-dial": "github:Forward-Education/pxt-fwd-modules/fwd-dial#v1.0.8",
