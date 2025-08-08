@@ -1,7 +1,7 @@
 # Hope Spot Monitoring Station - Use Tutorial
 
 ```package
-fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.0.3
+fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
 datalogger=datalogger
 ```
 

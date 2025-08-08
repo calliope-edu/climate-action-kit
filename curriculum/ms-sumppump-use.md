@@ -1,7 +1,7 @@
 # Sump Pump - Use Tutorial
 
 ```package
-fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.0.3
+fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
 ```
 
 ```template
