@@ -1,19 +1,19 @@
 {
     "name": "fwd-climate-action",
     "version": "1.1.0",
-    "description": "Forward Education's Climate Action Kit BETA extension, micro:bit V2 only.",
+    "description": "Forward Education's Climate Action Kit.",
     "license": "MIT",
     "dependencies": {
-        "fwd-dial": "github:Forward-Education/pxt-fwd-modules/fwd-dial#v1.0.10",
-        "fwd-led-ring": "github:Forward-Education/pxt-fwd-modules/fwd-led-ring#v1.0.10",
-        "fwd-line": "github:Forward-Education/pxt-fwd-modules/fwd-line#v1.0.10",
-        "fwd-moisture": "github:Forward-Education/pxt-fwd-modules/fwd-moisture#v1.0.10",
-        "fwd-pump": "github:Forward-Education/pxt-fwd-modules/fwd-pump#v1.0.10",
-        "fwd-servo-continuous": "github:Forward-Education/pxt-fwd-modules/fwd-servo-continuous#v1.0.10",
-        "fwd-servo-positional": "github:Forward-Education/pxt-fwd-modules/fwd-servo-positional#v1.0.10",
-        "fwd-solar": "github:Forward-Education/pxt-fwd-modules/fwd-solar#v1.0.10",
-        "fwd-sonar": "github:Forward-Education/pxt-fwd-modules/fwd-sonar#v1.0.10",
-        "fwd-touch": "github:Forward-Education/pxt-fwd-modules/fwd-touch#v1.0.10"
+        "fwd-dial": "github:calliope-edu/pxt-fwd-modules/fwd-dial#v1.0.10",
+        "fwd-led-ring": "github:calliope-edu/pxt-fwd-modules/fwd-led-ring#v1.0.10",
+        "fwd-line": "github:calliope-edu/pxt-fwd-modules/fwd-line#v1.0.10",
+        "fwd-moisture": "github:calliope-edu/pxt-fwd-modules/fwd-moisture#v1.0.10",
+        "fwd-pump": "github:calliope-edu/pxt-fwd-modules/fwd-pump#v1.0.10",
+        "fwd-servo-continuous": "github:calliope-edu/pxt-fwd-modules/fwd-servo-continuous#v1.0.10",
+        "fwd-servo-positional": "github:calliope-edu/pxt-fwd-modules/fwd-servo-positional#v1.0.10",
+        "fwd-solar": "github:calliope-edu/pxt-fwd-modules/fwd-solar#v1.0.10",
+        "fwd-sonar": "github:calliope-edu/pxt-fwd-modules/fwd-sonar#v1.0.10",
+        "fwd-touch": "github:calliope-edu/pxt-fwd-modules/fwd-touch#v1.0.10"
     },
     "files": [
         "README.md",
@@ -28,7 +28,8 @@
         "targetId": "microbit"
     },
     "supportedTargets": [
-        "microbit"
+        "microbit",
+        "calliopemini"
     ],
     "preferredEditor": "tsprj"
 }
