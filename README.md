@@ -8,8 +8,6 @@ Find us at [forwardedu.com](https://forwardedu.com/) and [learn.forwardedu.com](
 
 ![works with micro:bit V2 only image](/static/v2/v2-only.png)
 
-These blocks require the [micro:bit V2](/device/v2). If you use them with a V1 micro:bit you will see the 927 error code on the screen.
-
 ### ~
 
 ## Example Usage
@@ -64,6 +62,7 @@ basic.forever(function () {
 
 ## Supported Targets
 
+-   for PXT/calliopemini
 -   for PXT/microbit
 
 ## License
