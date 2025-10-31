@@ -107,9 +107,9 @@ Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
 Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
-## Aktivität 3: Verwenden das Projekt @showdialog
+## Aktivität 3: Das Projekt ausprobieren @showdialog
 
-Wir sind nun bereit, unser Korallenriffmodell zu **verwenden**, um zu sehen, wie es zu Korallenbleiche kommt, wenn das Wasser zu warm wird.
+Wir sind nun bereit, unser Korallenriffmodell **auszuprobieren**, um zu sehen, wie es zu Korallenbleiche kommt, wenn das Wasser zu warm wird.
 
 **Tipps**
 
@@ -246,6 +246,13 @@ Nenne zwei neue Dinge, die du heute gelernt hast.
 
 Was ist eine Sache, über die du mehr erfahren möchtest?
 
+
 ## Fertig! @showdialog
 
 Im nächsten Schritt kannst du auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
+
+## Fertig!
+
+Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
+
+Besuch auch mal die Webseite calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
