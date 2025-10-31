@@ -1,4 +1,4 @@
-# Coral Reef Model - Use Tutorial
+# Korallenriff-Modell – Tutorial
 
 ```package
 fwd-climate-action-kit=github:calliope-edu/climate-action-kit
