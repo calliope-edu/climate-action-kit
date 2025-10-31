@@ -127,7 +127,7 @@ Schau dir deinen Code an. Wie können wir deiner Meinung nach den Motor daran hi
 
 ~hint Mehr erfahren!
 
--   The motor will **stop** when you press down on the **dial**!
+-  Der Motor **stoppt**, wenn du den **Drehknopf** drückst!
     hint~
 
 ## Ausprobieren Schritt 4
