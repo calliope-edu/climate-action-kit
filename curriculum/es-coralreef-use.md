@@ -30,9 +30,9 @@ basic.forever(function () {
 
 Lasst uns unser Korallenriff-Modell bauen! Wir werden dies in drei Schritten tun:
 
-1. **Bauen** Den Prototypen konstruieren
-2. **Code erstellen** Das Projekt zum Leben zu erwecken
-3. **Ausprobieren** Herausfinden, ob der fertige Prototyp funktioniert
+1. **Bauen:** Den Prototypen konstruieren
+2. **Code erstellen:** Das Projekt zum Leben zu erwecken
+3. **Ausprobieren:** Herausfinden, ob der fertige Prototyp funktioniert
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-render.webp" alt="Full coral reef model render" style="display: block; width: 70%; margin:auto;">
 
@@ -255,4 +255,4 @@ Im nächsten Schritt kannst du auf die Schaltfläche `|Done|` klicken, um das Tu
 
 Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-Besuch auch mal die Webseite calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
+Besuch auch mal calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
