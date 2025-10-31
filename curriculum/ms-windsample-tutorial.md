@@ -72,7 +72,7 @@ Lasst uns eine automatisierte Windkraftanlage bauen. Wir werden dies in vier Sch
 
 ## Activity 2: Code erstellen @showdialog
 
-Wir müssen unser Projekt mit dem Computer verbinden, damit es mit Code zum Leben erweckt wird!
+Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
 Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
 
@@ -83,7 +83,7 @@ WICHTIG! Vergewissere sich, dass dein Climate Action Kit Breakout Board eingesch
 
 ## Code Schritt 2 @showdialog
 
-Klicke auf die drei Punkte neben der Schaltfläche '|Download|' und dann auf „Gerät verbinden“.
+Klicke auf die drei Punkte neben der Schaltfläche `|Download|` und dann auf „Gerät verbinden“.
 Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
@@ -208,15 +208,14 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 })
 ```
 
+## Herzlichen Glückwunsch! @showdialog
+
+Du hast hast diese Aktivität abgeschlossen!
+
 ## Analyse @showdialog
 
-Wie Kannst du das Climate Action Kit in deinem Unterricht einsetzen?
+Nenne eine Sache, die du heute gelernt hast?
 
-Über welches Thema möchtest du mehr erfahren?
-
-## Fertig! @showdialog
-
-Im nächsten Schritt kannst du auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
 ## Fertig!
 

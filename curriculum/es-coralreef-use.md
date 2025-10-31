@@ -86,7 +86,7 @@ Lasst uns unser Korallenriff-Modell bauen! Wir werden dies in drei Schritten tun
 
 ## Aktivität 2: Code erstellen @showdialog
 
-Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt wird!
+Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
 Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
 
@@ -246,10 +246,6 @@ Nenne zwei neue Dinge, die du heute gelernt hast.
 
 Was ist eine Sache, über die du mehr erfahren möchtest?
 
-
-## Fertig! @showdialog
-
-Im nächsten Schritt kannst du auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
 ## Fertig!
 

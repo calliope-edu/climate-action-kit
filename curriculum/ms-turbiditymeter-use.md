@@ -1,4 +1,4 @@
-# Turbidity Meters - Use Tutorial
+# Trübungsmessgeräte – Tutorial
 
 ```package
 fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
@@ -13,58 +13,61 @@ fwdLights.ledRing1.setBrightness(10)
 fwdLights.ledRing1.setAllPixelsColor(0xffffff)
 ```
 
-## Turbidity Meters - Use Tutorial @showdialog
+## Trübungsmessgeräte @showdialog
 
-Today, we are going to build our own **NTU sensor** to measure the turbidity of water samples!
+Heute bauen wir unseren eigenen **NTU-Sensor**, um die Trübung von Wasserproben zu messen!
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-turbidity-render.webp" alt="Full turbidity meter render" style="display: block; width: 100%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbidity-render.webp" alt="Full turbidity meter render" style="display: block; width: 100%; margin:auto;">
+Ein **NTU-Sensor** (Nephelometric Turbidity Unit) ist ein Sensor, der zur Messung der Trübung in Flüssigkeiten verwendet wird. Die Einheit NTU wird in der Wasseraufbereitung verwendet, um die Trübung zu messen.
 
-## Step 1 @showdialog
+## Schritt 1 @showdialog
+Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
-IMPORTANT! Make sure your Climate Action Kit Breakout Board is turned on and your micro:bit is plugged into your computer.
+Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pluganim.webp" alt="Plug micro:bit into USB port on computer" style="display: block; width: 40%; margin:auto;">
+WICHTIG! Vergewissere dich, dass dein Climate Action Kit Breakout Board eingeschaltet und dein Calliope mini an einem Computer angeschlossen ist.
 
-## Step 2 @showdialog
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pluganim.webp" alt="Plug Calliope mini into USB port on computer" style="display: block; width: 40%; margin:auto;">
 
-Click the three dots beside the `|Download|` button, then click on _Connect Device_.
-Next, follow the steps to pair your micro:bit.
+## Schritt 2 @showdialog
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
+Klicke auf die drei Punkte neben der Schaltfläche `|Download|` und dann auf „Gerät verbinden“.
+Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
-## Step 3
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
 
-Click the `|Download|` button to download the code to your micro:bit.
+## Schritt 3
 
-## Step 4
+Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
-Take a look at your physical project. Can you identify the main parts of the NTU sensor?
+## Schritt 4
 
-~hint Tell me more!
+Schaue dir dein physisches Projekt an. Kannst du die Hauptteile des NTU-Sensors identifizieren?
 
-Remember:
 
--   **NTU sensors** require a light _source_ and a light _sensor_.
+Denken Sie daran:
 
--   We are using the **LED ring** as our light source and the **solar sensor** as our light sensor.
+-   **NTU-Sensoren** benötigen eine Lichtquelle und einen Lichtsensor.
 
--   The LED ring will shine a light directly through the water sample.
+-   Wir verwenden den **LED-Ring** als Lichtquelle und den **Sonnensensor** als Lichtsensor.
 
--   The solar sensor is placed perpendicularly to the LED ring to pick up any light scattered by suspended particles in the sample! Check out the lightbulb hint for a visual.
+-   Der LED-Ring strahlt Licht direkt durch die Wasserprobe.
+
+-   Der Sonnensensor wird senkrecht zum LED-Ring platziert, um das von den Schwebeteilchen in der Probe gestreute Licht aufzunehmen! Schaue dir den  den Hinweis an, um dir ein Bild davon zu machen.
 
 hint~
 
-![Light scatter in NTU sensors](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/NTUsensor-cloudysample.png)
+![Light scatter in NTU sensors](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/NTUsensor-cloudysample.png)
 
-## Step 5
+## Schritt 5
 
-Take a look at the code in the workspace. What do you think this code will do?
+Schaue dir den Code im Arbeitsbereich an. Was glaubst du, wird dieser Code bewirken?
+ 
+~hint Mehr erfahren!
 
-~hint Tell me more!
+-   Die beiden Blöcke `||fwdSensors:LED ring||` in `||basic:on start||` weisen den Calliope mini an, die Lichtquelle unseres NTU-Sensors auf volle Helligkeit zu schalten.
 
--   The two `||fwdSensors:LED ring||` blocks in `||basic:on start||` tell the micro:bit to turn the light source of our NTU sensor to full brightness.
-
--   `||input:on button A pressed||` the value picked up by the solar sensor will be displayed on the micro:bit's LEDs. This is how we can take a reading of our sample!
+- `||input:on button A pressed||` Der vom Sonnensensor erfasste Wert wird auf den LEDs des Calliope mini angezeigt. Auf diese Weise können wir unseren Messwert ablesen!
 
 hint~
 
@@ -76,51 +79,57 @@ input.onButtonPressed(Button.A, function () {
 })
 ```
 
-## Step 6
+## Schritt 6
 
-Grab your prepared water samples.
+Stelle die vorbereiteten Wasserproben zur Messung bereit.
 
-Remember, our lower turbidity sample should be tap water, while the second, higher turbidity sample will be tap water with a tablespoon baking soda mixed in.
+Denke daran, dass unsere Probe mit geringerer Trübung Leitungswasser sein sollte, während die zweite Probe mit höherer Trübung Leitungswasser mit einem Esslöffel Backpulver sein soll.
 
-## Step 7
+## Schritt 7
 
-Place the sample with low turbidity between the LED ring and solar sensor as shown in the lightbulb hint. Ensure the water sample is stable and won't spill.
+Platziere die Probe mit geringer Trübung zwischen dem LED-Ring und dem Sonnensensor, wie in der Glühbirnen-Anleitung gezeigt. Stelle sicher, dass die Wasserprobe stabil ist und nicht verschüttet werden kann.
 
-![Low turbidity sample](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-turbidity-water-render.webp)
+![Low turbidity sample](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbidity-water-render.webp)
 
-## Step 8
+## Schritt 8
 
-Press A. What was the reading for this sample? Record it.
+Drücke A. Wie lautete der Messwert für diese Probe? Notiere ihn.
 
-## Step 9
+## Schritt 9
 
-Place the high turbidity sample between the LED ring and solar sensor as shown in the lightbulb hint. Ensure the water sample is stable.
+Platziere die Probe mit hoher Trübung zwischen dem LED-Ring und dem Sonnensensor, wie in der Glühbirnen-Anleitung gezeigt. Stelle sicher, dass die Wasserprobe stabil steht.
 
-How do you predict this sample's reading will differ from the first? Why?
+Wie wird sich der Messwert dieser Probe deiner Meinung nach vom ersten unterscheiden? Warum?
+![High turbidity sample](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbidity-dirty-render.webp)
 
-![High turbidity sample](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-turbidity-dirty-render.webp)
+## Schritt 10
 
-## Step 10
+Drücke A. Notiere den Messwert. War deine Vorhersage richtig?
 
-Press A. Record the reading. Was your prediction correct?
+## Schritt 11
 
-## Step 11
+Analysieren deine gemessenen Daten:
 
-Analyze your data:
+1. Welche Probe wies einen höheren Trübungswert auf?
+2. Was sagt der Unterschied in den Messwerten über die Klarheit der beiden Proben aus?
+3. Was sagt dieser Unterschied über die Partikelmenge in jeder Probe aus?
 
-1. Which sample had a higher turbidity reading?
-2. What does this difference in readings tell you about the clarity of the two samples?
-3. What does this difference tell you about the amount of particles in each sample?
 
-## Reflection
+## Herzlichen Glückwunsch! @showdialog
 
-Before we wrap up:
+Du hast hast diese Aktivität abgeschlossen!
 
--   Why is it important to test more than one water sample when measuring turbidity?
--   How does the amount of light scattered relate to the turbidity of a water sample?
--   What are some real-world situations where it's important to measure turbidity?
--   If you found a high turbidity reading in a local water sample, what might be some possible sources of the particles causing the turbidity?
+## Analyse @showdialog
 
-## Finished
+Bevor wir zum Schluss kommen:
 
-Click the `|Done|` button to finish this tutorial.
+- Warum ist es wichtig, bei der Messung der Trübung mehr als eine Wasserprobe zu testen?
+- In welchem Zusammenhang steht die Menge des gestreuten Lichts mit der Trübung einer Wasserprobe?
+- In welchen Situationen im Alltag ist es wichtig, die Trübung zu messen?
+- Wenn du in einer lokalen Wasserprobe einen hohen Trübungswert festgestellt hast, was könnten mögliche Ursachen für die Partikel sein, die die Trübung verursachen?
+
+## Fertig!
+
+Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
+
+Besuch auch mal calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
