@@ -1,7 +1,7 @@
 # Forward Education Wind Turbine - Sample Tutorial
 
 ```package
-fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
+fwd-climate-action=github:calliope-edu/climate-action#v1.1.0
 datalogger=datalogger
 ```
 
@@ -19,81 +19,80 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 })
 ```
 
-## Activity 1: Build Your Project @showdialog
+## Aktivität 1: Erstelle dein Projekt @showdialog
 
-Let's build an automated wind turbine. We are going to do this in four parts:
+Lasst uns eine automatisierte Windkraftanlage bauen. Wir werden dies in vier Schritten tun:
 
-1. **Build** our wind turbine
-2. **Add code** to make our project move
-3. **Use** our wind turbine to learn how it works
-4. **Modify** our project with a small coding challenge
+1. **Bauen** Den Prototypen konstruieren
+2. **Code erstellen** Das Projekt zum Leben zu erwecken
+3. **Ausprobieren** Herausfinden, ob der fertige Prototyp funktioniert
+4. **Modifizieren** Verändere dein Projekt mit einer kleinen Programmieraufgabe
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-render.webp" alt="Full sample wind tubine render" style="display: block; width: 60%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-render.webp" alt="Full sample wind tubine render" style="display: block; width: 60%; margin:auto;">
 
-## Build Step 1 @showdialog
+## Bauanleitung Schritt 1 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs01.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs01.webp)
 
-## Build Step 2 @showdialog
+## Bauanleitung Schritt 2 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs02.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs02.webp)
 
-## Build Step 3 @showdialog
+## Bauanleitung Schritt 3 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs03.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs03.webp)
 
-## Build Step 4 @showdialog
+## Bauanleitung Schritt 4 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs04.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs04.webp)
 
-## Build Step 5 @showdialog
+## Bauanleitung Schritt 5 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs05.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs05.webp)
 
-## Build Step 6 @showdialog
+## Bauanleitung Schritt 6 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs06.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs06.webp)
 
-## Build Step 7 @showdialog
+## Bauanleitung Schritt 7 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs07.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs07.webp)
 
-## Build Step 8 @showdialog
+## Bauanleitung Schritt 8 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs08.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs08.webp)
 
-## Build Step 9 @showdialog
+## Bauanleitung Schritt 9 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs09.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs09.webp)
 
-## Build Step 10 @showdialog
+## Bauanleitung Schritt 10 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs10.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/add3c3f5d4b963f2cba276ba9760a9f8c463b77c/tutorial-assets/ms-windsample-sbs10.webp)
 
-## Activity 2: Code Your Project @showdialog
+## Activity 2: Code erstellen @showdialog
 
-We need to connect our project to the computer to make it come to life with code!
+Wir müssen unser Projekt mit dem Computer verbinden, damit es mit Code zum Leben erweckt wird!
 
-The code will be the instructions that tell our micro:bit what to do.
+Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
 
-## Code Step 1 @showdialog
+## Code Schritt 1 @showdialog
 
-IMPORTANT! Make sure your Climate Action Kit Breakout Board is turned on and your micro:bit is plugged into your computer.
+WICHTIG! Vergewissere sich, dass dein Climate Action Kit Breakout Board eingeschaltet und der Calliope mini an einem Computer angeschlossen ist.
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pluganim.webp" alt="Plug Calliope mini into USB port on computer" style="display: block; width: 40%; margin:auto;">
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pluganim.webp" alt="Plug micro:bit into USB port on computer" style="display: block; width: 40%; margin:auto;">
+## Code Schritt 2 @showdialog
 
-## Code Step 2 @showdialog
+Klicke auf die drei Punkte neben der Schaltfläche '|Download|' und dann auf „Gerät verbinden“.
+Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
-Click the three dots beside the `|Download|` button, then click on _Connect Device_.
-Next, follow the steps to pair your micro:bit.
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
+## Code Schritt 3
 
-## Code Step 3
+Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
-Click the `|Download|` button to download the code to your project.
-
-## Activity 3: Use Your Project @showdialog
+## Aktivität 3: Ausprobieren @showdialog
 
 The Climate Action Kit lesson library allows students to scaffold their learning in three stages of projects: **Use, Modify, and Create.**
 
@@ -105,13 +104,13 @@ As you go through the next steps:
 -   When you are ready for more information, click **'Tell Me More!'**
 -   If you need help with the code, click the **lightbulb**!
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
 
-## Use Step 1
+## Ausprobieren Schritt 1
 
 The code in the workspace will make our wind turbine turn and stop.
 
-## Use Step 2
+## Ausprobieren Schritt 2
 
 As you turn the dial to the **right**, watch what happens in the virtual simulator panel _and_ on your physical wind turbine.
 
@@ -124,7 +123,7 @@ As you turn the dial to the **right**, watch what happens in the virtual simulat
     _ **Output** - motor spins to the right
     hint~
 
-## Use Step 3
+## Ausprobieren Schritt 3
 
 Look at your code. How do you think we can **stop** the motor from spinning? Try it!
 
@@ -133,7 +132,7 @@ Look at your code. How do you think we can **stop** the motor from spinning? Try
 -   The motor will **stop** when you press down on the **dial**!
     hint~
 
-## Use Step 4
+## Ausprobieren Schritt 4
 
 What do you think will happen when you turn the dial to the **left**? Try it now!
 
@@ -148,7 +147,7 @@ The Climate Action Kit lesson library allows students to **modify** their projec
 
 Now that we have **used** code to create a wind turbine that turns **right** when we turn the dial **right**, we need to **modify** our code to make the wind turbine turn **both directions**.
 
-## Modify Step 1
+## Modifizieren Schritt 1
 
 In the workspace, there is an `||fwdSensors:on dial1 turned difference||` event we haven't used yet. How can you use this empty event to make the wind turbine turn **left** when we turn the dial to the **left**?
 
@@ -162,7 +161,7 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 })
 ```
 
-## Modify Step 2
+## Modifizieren Schritt 2
 
 Open the `||fwdMotors:Motors||` category and drag and drop `||fwdMotors:set leftServo to 50 %||` into the workspace.
 
@@ -178,7 +177,7 @@ On the sensor block, click the dropdown from set **leftServo** to set **middleSe
  fwdBase.middleServo.setSpeed(50)
 ```
 
-## Modify Step 3
+## Modifizieren Schritt 3
 
 How can you combine the `||fwdSensors:on dial1 turned difference||` event and the `||fwdMotors:set middleServo to 50 %||` together to make the wind turbine turn **left** when the dial is turned **left**?
 
@@ -194,7 +193,7 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 })
 ```
 
-## Modify Step 4
+## Modifizieren Schritt 4
 
 Click the `|Download|` button to download the code to your project.
 
@@ -212,18 +211,18 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 })
 ```
 
-## Reflection @showdialog
+## Analyse @showdialog
 
 How do you think that you could use the Climate Action Kit in your classroom?
 
 What is one thing you want to learn more about?
 
-## Finished! @showdialog
+## Fertig! @showdialog
 
-In the next step, you can click the `|Done|` button to finish the tutorial.
+Im nächsten Schritt kannst du auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-## Finished!
+## Fertig!
 
-You can click the `|Done|` button to finish the tutorial.
+Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-Don't forget to check out [Forward Education's lesson library](https://learn.forwardedu.com/lesson-library/) to see more projects you can build with the Climate Action Kit!
+Besuch auch mal die Webseite calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!

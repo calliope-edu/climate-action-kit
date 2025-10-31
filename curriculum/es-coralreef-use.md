@@ -84,7 +84,7 @@ Lasst uns unser Korallenriff-Modell bauen! Wir werden dies in drei Schritten tun
 
 ![sbs12](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs12.webp)
 
-## Aktivität 2: Programmiere das Projekt @showdialog
+## Aktivität 2: Code erstellen @showdialog
 
 Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt wird!
 
@@ -107,7 +107,7 @@ Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
 Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
-## Aktivität 3: Das Projekt ausprobieren @showdialog
+## Aktivität 3: Ausprobieren @showdialog
 
 Wir sind nun bereit, unser Korallenriffmodell **auszuprobieren**, um zu sehen, wie es zu Korallenbleiche kommt, wenn das Wasser zu warm wird.
 
@@ -121,7 +121,7 @@ Wir sind nun bereit, unser Korallenriffmodell **auszuprobieren**, um zu sehen, w
 ## Ausprobieren Schritt 1
 
 Schau dir das Modell, das du gerade gebaut hast, genau an. Kannst du die verschiedenen Teile benennen, die du dafür verwendet hast? Sei dabei möglichst genau!
-~hint Erzähl mir mehr!
+~hint Mehr erfahren!
 Dieses Modell verwendet:
 
 -   **Bausteine:** Eine Grundplatte, einen Kreis, vier Würfelverbinder und zwei mittelgroße weiße Rahmen
@@ -132,7 +132,7 @@ Dieses Modell verwendet:
 ## Ausprobieren Schritt 2
 
 Was glaubst du, was die verschiedenen Teile des Modells darstellen?
-~hint Erzähl mir mehr!
+~hint Mehr erfahren!
 
 -   Der LED-Ring stellt die Koralle dar. Seine Farbe zeigt an, ob die Koralle gesund oder gebleicht ist. Wir verwenden Seidenpapier, damit der LED-Ring noch mehr wie eine Koralle aussieht. Es stellt die Tentakel des Korallenpolypen dar!
     hint~
@@ -141,7 +141,7 @@ Was glaubst du, was die verschiedenen Teile des Modells darstellen?
 
 Es ist an der Zeit, das Modell zu testen, indem du den Drehknopf langsam um eine Stufe nach rechts drehst.
 Was fällt dir auf?
-~hint Erzähl mir mehr!
+~hint Mehr erfahren!
 
 - Die Zahl auf dem LED-Bildschirm des Calliope mini hat sich um 1 erhöht.
 - Diese Zahl gibt die aktuelle Temperatur des Ozeans an.
@@ -152,7 +152,7 @@ Was fällt dir auf?
 Wir verwenden eine **Variable**, um die Temperatur zu speichern. Variablen sind wie Kisten, die Informationen für uns aufbewahren.
 
 Jedes Mal, wenn du den Drehknopf drehst, ändert sich die Temperaturvariable entsprechend der Drehrichtung. Versuche, den Drehknopf um eine Stufe nach links zu drehen. Was passiert?
-~hint Erzähl mir mehr!
+~hint Mehr erfahren!
 So funktioniert es:
 - Die Variable enthält die aktuelle Temperatur. In diesem Programm beginnt die Temperatur bei 28 °C.
 - Wenn du den Drehknopf drehst, ändert sich die Variable. Durch Drehen des Drehknopfs nach rechts wird die Temperatur erhöht, durch Drehen nach links wird sie verringert.
@@ -180,7 +180,7 @@ basic.forever(function () {
 Drehe den Regler weiter, bis die Temperatur über 30 °C liegt.
 
 Was fällt dir auf?
-~hint Erzähl mir mehr!
+~hint Mehr erfahren!
 
 -   Wenn die Temperatur über 30 °C liegt, leuchten die LEDs auf dem LED-Ring weiß.
 -   Dies steht für die Korallenbleiche, die durch die Erwärmung des Ozeans verursacht wird.
@@ -195,7 +195,7 @@ Eine Bedingung ist eine Regel, die dem Calliope mini mitteilt, was zu tun ist, w
 ## Ausprobieren Schritt 8
 
 Kannst du die Bedingung im folgenden Code finden?
-~hint Erzähl mir mehr!
+~hint Mehr erfahren!
 
 - Bei Temperaturen über 30 °C bleicht die Koralle aus (die LED leuchtet weiß).
 - Bei Temperaturen von 30 °C oder darunter bleibt die Koralle gesund (die LED leuchtet weiterhin rosa).
@@ -212,7 +212,7 @@ Kannst du die Bedingung im folgenden Code finden?
 ## Ausprobieren Schritt 9
 
 Inwiefern ist dies ein gutes Modell für die Korallenbleiche im wirklichen Leben?
-~hint Erzähl mir mehr!
+~hint Mehr erfahren!
 
 Stärken:
 
