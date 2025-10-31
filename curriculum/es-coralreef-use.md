@@ -1,7 +1,7 @@
 # Coral Reef Model - Use Tutorial
 
 ```package
-fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
+fwd-climate-action-kit=github:calliope-edu/climate-action-kit
 datalogger=datalogger
 ```
 
@@ -26,145 +26,138 @@ basic.forever(function () {
 })
 ```
 
-## Activity 1: Build Your Project @showdialog
+## Aktivität 1: Erstelle dein Projekt @showdialog
 
-Let's build our coral reef model! We are going to do this in three parts:
+Lasst uns unser Korallenriff-Modell bauen! Wir werden dies in drei Schritten tun:
 
-1. **Build** your model
-2. **Add code** to your model to bring it to life
-3. **Use** your model to simulate coral bleaching
+1. **Bauen** Den Prototypen konstruieren
+2. **Code erstellen** Das Projekt zum Leben zu erwecken
+3. **Ausprobieren** Herausfinden, ob der fertige Prototyp funktioniert
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-render.webp" alt="Full coral reef model render" style="display: block; width: 70%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-render.webp" alt="Full coral reef model render" style="display: block; width: 70%; margin:auto;">
 
-## Build Step 1 @showdialog
+## Bauanleitung Schritt 1 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs01.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs01.webp)
 
-## Build Step 2 @showdialog
+## Bauanleitung Schritt 2 @showdialog
 
-![sbs2](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs02.webp)
+![sbs2](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs02.webp)
 
-## Build Step 3 @showdialog
+## Bauanleitung Schritt 3 @showdialog
 
-![sbs3](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs03.webp)
+![sbs3](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs03.webp)
 
-## Build Step 4 @showdialog
+## Bauanleitung Schritt 4 @showdialog
 
-![sbs4](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs04.webp)
+![sbs4](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs04.webp)
 
-## Build Step 5 @showdialog
+## Bauanleitung Schritt 5 @showdialog
 
-![sbs5](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs05.webp)
+![sbs5](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs05.webp)
 
-## Build Step 6 @showdialog
+## Bauanleitung Schritt 6 @showdialog
 
-![sbs6](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs06.webp)
+![sbs6](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs06.webp)
 
-## Build Step 7 @showdialog
+## Bauanleitung Schritt 7 @showdialog
 
-![sbs7](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs07.webp)
+![sbs7](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs07.webp)
 
-## Build Step 8 @showdialog
+## Bauanleitung Schritt 8 @showdialog
 
-![sbs8](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs08.webp)
+![sbs8](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs08.webp)
 
-## Build Step 9 @showdialog
+## Bauanleitung Schritt 9 @showdialog
 
-![sbs9](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs09.webp)
+![sbs9](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs09.webp)
 
-## Build Step 10 @showdialog
+## Bauanleitung Schritt 10 @showdialog
 
-![sbs10](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs10.webp)
+![sbs10](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs10.webp)
 
-## Build Step 11 @showdialog
+## Bauanleitung Schritt 11 @showdialog
 
-![sbs11](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs11.webp)
+![sbs11](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs11.webp)
 
-## Build Step 12 @showdialog
+## Bauanleitung Schritt 12 @showdialog
 
-![sbs12](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/es-coralreef-sbs12.webp)
+![sbs12](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-sbs12.webp)
 
-## Activity 2: Code Your Project @showdialog
+## Aktivität 2: Programmiere das Projekt @showdialog
 
-We need to connect our model to the computer to make it come to life with code!
+Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt wird!
 
-The code will be the instructions that tell our micro:bit what to do.
+Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
 
-## Code Step 1 @showdialog
+## Code Schritt 1 @showdialog
 
-IMPORTANT! Make sure your Climate Action Kit Breakout Board is turned on and your micro:bit is plugged into your computer.
+WICHTIG! Vergewissere dich, dass dein Climate Action Kit Breakout Board eingeschaltet und dein Calliope mini an einem Computer angeschlossen ist.
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pluganim.webp" alt="Plug micro:bit into USB port on computer" style="display: block; width: 40%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pluganim.webp" alt="Plug Calliope mini into USB port on computer" style="display: block; width: 40%; margin:auto;">
 
-## Code Step 2 @showdialog
+## Code Schritt 2 @showdialog
 
-Click the three dots beside the `|Download|` button, then click on _Connect Device_.
-Next, follow the steps to pair your micro:bit.
+Klicke auf die drei Punkte neben der Schaltfläche `|Download|` und dann auf „Gerät verbinden“.
+Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
 
-## Code Step 3
+## Code schritt 3
 
-Next, click the `|Download|` button to download the code to your project.
+Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
-## Activity 3: Use Your Project @showdialog
+## Aktivität 3: Verwenden das Projekt @showdialog
 
-We are now ready to **use** our coral reef model to see how coral bleaching happens when the water gets too warm.
+Wir sind nun bereit, unser Korallenriffmodell zu **verwenden**, um zu sehen, wie es zu Korallenbleiche kommt, wenn das Wasser zu warm wird.
 
-**Tutorial Tips**
+**Tipps**
 
-1. **Follow** the steps at the top of the screen.
-2. When you are ready for more details, click **'Tell me more!'**
-3. If you need help with the code, click the **lightbulb!**
+1. **Folge** den Schritten oben auf dem Bildschirm.
+2. Wenn du weitere Informationen benötigst, klicke auf **„Mehr erfahren!“**.
+3. Wenn du Hilfe mit dem Code benötigst, klicke auf die **Glühbirne!**
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
+## Ausprobieren Schritt 1
 
-## Use Step 1
+Schau dir das Modell, das du gerade gebaut hast, genau an. Kannst du die verschiedenen Teile benennen, die du dafür verwendet hast? Sei dabei möglichst genau!
+~hint Erzähl mir mehr!
+Dieses Modell verwendet:
 
-Take a close look at the model you just built. Can you name the different parts you used to make it? Be specific!
-
-~hint Tell me more!
-This model uses:
-
--   **Building Blocks:** One baseplate, one circle, four cube connectors, and two medium white frames
--   **Craft supplies:** Tissue paper
--   **Robotic Parts:** A breakout board, micro:bit, dial, and LED ring
+-   **Bausteine:** Eine Grundplatte, einen Kreis, vier Würfelverbinder und zwei mittelgroße weiße Rahmen
+-   **Bastelmaterial:** Seidenpapier
+-   **Roboterteile:** Eine Breakout-Platine, Calliope mini, Drehregler und LED-Ring
     hint~
 
-## Use Step 2
+## Ausprobieren Schritt 2
 
-What do you think the different parts of your model represent?
+Was glaubst du, was die verschiedenen Teile des Modells darstellen?
+~hint Erzähl mir mehr!
 
-~hint Tell me more!
-
--   The LED ring represents the coral. Its colour will show whether the coral is healthy or bleached. We use tissue paper to make the LED ring look more like coral. It represents the coral polyp's tentacles!
+-   Der LED-Ring stellt die Koralle dar. Seine Farbe zeigt an, ob die Koralle gesund oder gebleicht ist. Wir verwenden Seidenpapier, damit der LED-Ring noch mehr wie eine Koralle aussieht. Es stellt die Tentakel des Korallenpolypen dar!
     hint~
 
-## Use Step 4
+## Ausprobieren Schritt 4
 
-Time to test out the model by slowly turning the dial one notch to the right.
+Es ist an der Zeit, das Modell zu testen, indem du den Drehknopf langsam um eine Stufe nach rechts drehst.
+Was fällt dir auf?
+~hint Erzähl mir mehr!
 
-What do you notice?
-
-~hint Tell me more!
-
--   The number on the micro:bit's LED screen increased by 1.
--   This number is going to represent the current temperature of the ocean.
+- Die Zahl auf dem LED-Bildschirm des Calliope mini hat sich um 1 erhöht.
+- Diese Zahl gibt die aktuelle Temperatur des Ozeans an.
     hint~
 
-## Use Step 5
+## Ausprobieren Schritt 5
 
-We are using a **variable** to store the temperature. Variables are like boxes that hold information for us.
+Wir verwenden eine **Variable**, um die Temperatur zu speichern. Variablen sind wie Kisten, die Informationen für uns aufbewahren.
 
-Each time you turn the dial, the temperature variable changes based on the direction you turn it. Try turning the dial one notch to the left. What happens?
-
-~hint Tell me more!
-Here's how it works:
-
--   The variable holds the current temperature. In this program, the temperature starts at 28°C.
--   When you turn the dial, the variable changes. Turning the dial to the right increases the temperature, and turning it to the left decreases the temperature.
--   The micro:bit keeps checking number inside the temperature variable and shows it on the screen.
-    hint~
+Jedes Mal, wenn du den Drehknopf drehst, ändert sich die Temperaturvariable entsprechend der Drehrichtung. Versuche, den Drehknopf um eine Stufe nach links zu drehen. Was passiert?
+~hint Erzähl mir mehr!
+So funktioniert es:
+- Die Variable enthält die aktuelle Temperatur. In diesem Programm beginnt die Temperatur bei 28 °C.
+- Wenn du den Drehknopf drehst, ändert sich die Variable. Durch Drehen des Drehknopfs nach rechts wird die Temperatur erhöht, durch Drehen nach links wird sie verringert.
+- Der Calliope mini überprüft ständig den Wert der Temperaturvariablen und zeigt ihn auf dem Bildschirm an.    
+hint~
 
 ```block
 let temperature = 28
@@ -182,32 +175,30 @@ basic.forever(function () {
 })
 ```
 
-## Use Step 6
+## Ausprobieren Schritt 6
 
-Keep turning the dial until the temperature is _above 30°C_.
+Drehe den Regler weiter, bis die Temperatur über 30 °C liegt.
 
-What do you notice?
+Was fällt dir auf?
+~hint Erzähl mir mehr!
 
-~hint Tell me more!
-
--   When the temperature is above 30°C, the LEDs on the LED ring turn white.
--   This represents coral bleaching as the ocean gets warmer.
+-   Wenn die Temperatur über 30 °C liegt, leuchten die LEDs auf dem LED-Ring weiß.
+-   Dies steht für die Korallenbleiche, die durch die Erwärmung des Ozeans verursacht wird.
     hint~
 
-## Use Step 7
+## Ausprobieren Schritt 7
 
-We used something called a **conditional statement** to change the colour of our LED ring (aka coral!)
+Wir haben eine sogenannte **Bedingung** verwendet, um die Farbe unseres LED-Rings (auch bekannt als Koralle!) zu ändern.
 
-A conditional statement is a rule that tells the micro:bit what to do when certain conditions are met. In this model, the conditional statement changes the colour of the LED ring based on the temperature.
+Eine Bedingung ist eine Regel, die dem Calliope mini mitteilt, was zu tun ist, wenn bestimmte Bedingungen erfüllt sind. In diesem Modell ändert die Bedingung die Farbe des LED-Rings basierend auf der Temperatur.
 
-## Use Step 8
+## Ausprobieren Schritt 8
 
-Can you find the conditional in the code below?
+Kannst du die Bedingung im folgenden Code finden?
+~hint Erzähl mir mehr!
 
-~hint Tell me more!
-
--   If the temperature is above 30°C, the coral bleaches (the LED turns white).
--   If the temperature is 30°C or lower, the coral stays healthy (the LED stays pink).
+- Bei Temperaturen über 30 °C bleicht die Koralle aus (die LED leuchtet weiß).
+- Bei Temperaturen von 30 °C oder darunter bleibt die Koralle gesund (die LED leuchtet weiterhin rosa).
     hint~
 
 ```block
@@ -218,45 +209,43 @@ Can you find the conditional in the code below?
     }
 ```
 
-## Use Step 9
+## Ausprobieren Schritt 9
 
-Now that you've tested your coral reef model, let's reflect.
+Inwiefern ist dies ein gutes Modell für die Korallenbleiche im wirklichen Leben?
+~hint Erzähl mir mehr!
 
-How is this a good model for coral bleaching in real life?
+Stärken:
 
-~hint Tell me more!
-Strengths:
-
--   This model clearly shows how warmer water can cause coral bleaching.
--   It shows that even a small increase in temperature can cause coral bleaching.
--   The model uses colour in a helpful way. In real life, coral starts off coloured but turns white as it bleaches - just like our LED ring!
--   In our model, humans can affect the ocean's temperature by turning the dial. While we can't turn a dial in real life, we can take actions like reducing pollution to help lower the ocean’s temperature and protect coral reefs.
+- Dieses Modell zeigt deutlich, wie wärmeres Wasser zur Korallenbleiche führen kann.
+- Es zeigt, dass bereits ein geringer Temperaturanstieg eine Korallenbleiche verursachen kann.
+- Das Modell nutzt Farben auf hilfreiche Weise. In der Realität sind Korallen zunächst farbig, werden aber weiß, wenn sie bleichen – genau wie unser LED-Ring!
+- In unserem Modell können Menschen die Temperatur des Ozeans beeinflussen, indem sie den Regler drehen. In der Realität können wir zwar keinen Regler drehen, aber wir können Maßnahmen wie die Reduzierung der Umweltverschmutzung ergreifen, um die Temperatur des Ozeans zu senken und Korallenriffe zu schützen.
     hint~
 
-## Use Step 10
+## Ausprobieren Schritt 10
 
-What are some limitations of this model? Does it show _everything_ that happens in a real coral reef?
+Was sind einige Einschränkungen dieses Modells? Zeigt es wirklich alles, was in einem echten Korallenriff passiert?
 
-~hint Tell me more!
+~Hinweis Erzähl mir mehr!
 
--   In this model, bleaching happens suddenly. In real life, coral bleaching happens slowly over time as the water temperature rises.
--   The model only shows temperature changes, but in real life, factors like pollution or too much sunlight can also cause coral bleaching.
--   This model doesn’t show the ways corals can recover and become healthy again.
--   The model doesn’t show how coral bleaching affects other animals that live in the reef.
+- In diesem Modell tritt die Bleiche plötzlich auf. In Wirklichkeit verläuft die Korallenbleiche langsam über einen längeren Zeitraum, wenn die Wassertemperatur steigt.
+- Das Modell zeigt nur Temperaturänderungen, aber in der Realität können auch Faktoren wie Umweltverschmutzung oder zu viel Sonnenlicht zur Korallenbleiche führen.
+- Dieses Modell zeigt nicht, wie sich Korallen erholen und wieder gesund werden können.
+- Das Modell zeigt nicht, wie sich die Korallenbleiche auf andere Tiere auswirkt, die im Riff leben.
 
-Pick one of these limitations. How could we improve the model to address it? What components of the Climate Action Kit would you add?
+Wählen eine dieser Einschränkungen aus. Wie könnten wir das Modell verbessern, um dieses Problem zu beheben? Welche Komponenten des Climate Action Kits würdest du hinzufügen?
 hint~
 
-## Congratulations! @showdialog
+## Herzlichen Glückwunsch! @showdialog
 
-You've completed the activity!
+Du hast hast diese Aktivität abgeschlossen!
 
-## Reflection @showdialog
+## Analyse @showdialog
 
-List 2 new things you learned today.
+Nenne zwei neue Dinge, die du heute gelernt hast.
 
-What is one thing you want to learn more about?
+Was ist eine Sache, über die du mehr erfahren möchtest?
 
-## Finished! @showdialog
+## Fertig! @showdialog
 
-In the next step, you can click the `|Done|` button to finish the tutorial.
+Im nächsten Schritt kannst du auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
