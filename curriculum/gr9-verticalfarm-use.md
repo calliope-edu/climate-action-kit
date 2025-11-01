@@ -1,104 +1,103 @@
-# Optimizing Plant Growth with LED Grow Lights - Use Tutorial
+# Optimierung des Pflanzenwachstums mit LED-Wachstumslampen
 
 ```package
-fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
+fwd-climate-action=github:calliope-edu/climate-action-kit#v1.1.0
 ```
 
-## Activity 1: Build Your Project @showdialog
+## Aktivität 1: Erstelle dein Projekt @showdialog
+Lasst uns einen Prototyp einer vertikalen Farm bauen! Wir werden dies in drei Teilen tun:
 
-Let's build a vertical farm prototype! We are going to do this in three parts:
+1. **Bauen:** Den Prototypen konstruieren
+2. **Code erstellen:** Das Projekt zum Leben zu erwecken
+3. **Ausprobieren:** Herausfinden, ob der Prototyp unserer vertikalen Farm funktioniert
 
-1. **Build** our prototype
-2. **Add code** to bring it to life
-3. **Use** our vertical farm to learn how it works
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-thumbnail-render.webp" alt="Full vertical farm render" style="display: block; width: 60%; margin:auto;">
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-thumbnail-render.webp" alt="Full vertical farm render" style="display: block; width: 60%; margin:auto;">
+## Bauanleitung Schritt 1 @showdialog
 
-## Build Step 1 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs01.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs01.webp)
+## Bauanleitung Schritt 2 @showdialog
 
-## Build Step 2 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs02.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs02.webp)
+## Bauanleitung Schritt 3 @showdialog
 
-## Build Step 3 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs03.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs03.webp)
+## Bauanleitung Schritt 4 @showdialog
 
-## Build Step 4 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs04.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs04.webp)
+## Bauanleitung Schritt 5 @showdialog
 
-## Build Step 5 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs05.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs05.webp)
+## Bauanleitung Schritt 6 @showdialog
 
-## Build Step 6 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs06.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs06.webp)
+## Bauanleitung Schritt 7 @showdialog
 
-## Build Step 7 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs07.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs07.webp)
+## Bauanleitung Schritt 8 @showdialog
 
-## Build Step 8 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs08.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs08.webp)
+## Bauanleitung Schritt 9 @showdialog
 
-## Build Step 9 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs09.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs09.webp)
+## Bauanleitung Schritt 10 @showdialog
 
-## Build Step 10 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs10.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs10.webp)
+## Bauanleitung Schritt 11 @showdialog
 
-## Build Step 11 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs11.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs11.webp)
+## Bauanleitung Schritt 12 @showdialog
 
-## Build Step 12 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs12.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs12.webp)
+## Bauanleitung Schritts 13 + 14 @showdialog
 
-## Build Steps 13 + 14 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs13.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs13.webp)
+## Bauanleitung Schritt 15 @showdialog
 
-## Build Step 15 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs15.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs15.webp)
+## Bauanleitung Schritt 16 @showdialog
 
-## Build Step 16 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs16.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs16.webp)
+## Bauanleitung Schritt 17 @showdialog
 
-## Build Step 17 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs17.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs17.webp)
+## Bauanleitung Schritt 18 @showdialog
 
-## Build Step 18 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs18.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs18.webp)
+## Bauanleitung Schritt 19 @showdialog
 
-## Build Step 19 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs19.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs19.webp)
+## Bauanleitung Schritt 20 @showdialog
 
-## Build Step 20 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs20.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs20.webp)
+## Bauanleitung Schritt 21 @showdialog
 
-## Build Step 21 @showdialog
+![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs21.webp)
 
-![verticalfarmsbs](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/gr9-verticalfarm-sbs21.webp)
+## Aktivität 2: Code Your Project @showdialog
 
-## Activity 2: Code Your Project @showdialog
+Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
-We need to connect our project to the computer to make it come to life with code!
-
-The code will be the instructions that tell our micro:bit what to do.
+Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
 
 ```template
 input.onButtonPressed(Button.A, function () {
@@ -178,154 +177,152 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 ## Code Step 1 @showdialog
 
-IMPORTANT! Make sure your Climate Action Kit Breakout Board is turned on and your micro:bit is plugged into your computer.
+WICHTIG! Vergewissere dich, dass dein Climate Action Kit Breakout Board eingeschaltet und dein Calliope mini an einem Computer angeschlossen ist.
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pluganim.webp" alt="Turn on breakout board" style="display: block; width: 40%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pluganim.webp" alt="Turn on breakout board" style="display: block; width: 40%; margin:auto;">
 
 ## Code Step 2 @showdialog
 
-Click the three dots beside the `|Download|` button, then click on _Connect Device_. Next, follow the steps to pair your micro:bit.
+Klicke auf die drei Punkte neben der Schaltfläche `|Download|` und dann auf „Gerät verbinden“.
+Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pairmicrobitGIF.webp" alt="Full wildfire render" style="display: block; width: 60%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp" alt="Full wildfire render" style="display: block; width: 60%; margin:auto;">
 
 ## Code Step 3
 
-Click the `|Download|` button to download the code to your project.
+Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
-## Activity 3: Use Your Project @showdialog
+## Aktivität 3: Use Your Project @showdialog
 
-We are ready to **use** our vertical farm prototype!
+Wir sind bereit, unseren **Prototyp** einer vertikalen Farm einzusetzen!
 
-Tips
+~hint 
+- **Verwende** die Anweisungen oben auf dem Bildschirm.
+- Wenn du weitere Informationen benötigst, klicke auf **„Mehr erfahren!“** ().
+- Wenn du Hilfe beim Code benötigst, klicke auf die **Glühbirne**!
 
-1. Follow the instructions at the top of the screen.
-2. When you are ready for more information, click **'Tell me more!'**
-3. If you need help with the code, click the lightbulb!
+## Ausprobieren Schritt 1
 
-## Use Step 1
+Schaue dir deinen Prototyp der vertikalen Farm an. Kannst du alle seiner physischen Teile benennen?
 
-Take a look at your vertical farm prototype. Can you name all of its physical parts?
+~hint Mehr erfahren!
+Unsere vertikale Farm verfügt über:
 
-~hint Tell me more!
-Our vertical farm has:
-
--   **Building blocks**: one baseplate, two long frames, one medium frame, four small frames, one circle, three cube connectors, and three corner connectors
--   **Robotic components**: a micro:bit, a breakout board, a battery, a positional servo motor, and an LED ring
--   One long cable connector
+-   **Bausteine**: eine Grundplatte, zwei lange Rahmen, einen mittleren Rahmen, vier kleine Rahmen, einen Kreis, drei Würfelverbinder und drei Eckverbinder
+-   **Robotikkomponenten**: einen Calliope mini, eine Breakout-Platine, eine Batterie, einen Positionsservomotor und einen LED-Ring
+-   Einen langen Kabelverbinder
     hint~
 
-## Use Step 2
+## Ausprobieren Schritt 2
 
-What do you think is the purpose of each part? How do they interact with one another?
+Was ist deiner Meinung nach der Zweck der einzelnen Teile? Wie wirken sie miteinander?
 
-~hint Tell me more!
-
--   The **building blocks** form the stacks that hold the plants in our vertical farm and the LED arm that will light our plants.
--   The **micro:bit** stores all the code that tells our vertical farming prototype how to operate.
--   The **breakout board** sends these instructions from the micro:bit to the **LED ring** and the **positional servo motor**. The positional servo motor will rotate our LED arm so it can move to and light a specific row of plants.
--   The **battery** on the breakout board powers our project when it's not plugged into the computer.
+~hint Mehr erfahren!
+- Die **Bausteine** bilden die Stapel, die die Pflanzen in unserer vertikalen Farm halten, sowie den LED-Arm, der unsere Pflanzen beleuchtet.
+- Der **Calliope mini** speichert den gesamten Code, der unserem vertikalen Farming-Prototyp mitteilt, wie er zu funktionieren hat.
+- Das **Breakout-Board** sendet diese Anweisungen vom Calliope mini an den **LED-Ring** und den **Positionsservomotor**. Der Positionsservomotor dreht unseren LED-Arm, sodass er sich zu einer bestimmten Pflanzenreihe bewegen und diese beleuchten kann.
+- Die **Batterie** auf dem Breakout-Board versorgt unser Projekt mit Strom, wenn es nicht an den Computer angeschlossen ist.
     hint~
 
-## Use Step 3
+## Ausprobieren Schritt 3
 
-Let’s start by testing out our vertical farm.
+Beginnen wir damit, unsere vertikale Farm zu testen.
 
-What happens when you press A? Press it a few times and write out an ordered list of everything you notice.
+Was passiert, wenn du A drückst? Drücke die Taste mehrmals und schreiben eine geordnete Liste mit allem auf, was dir auffällt.
 
-_Note: Wait 5 seconds between each button press._
+_Hinweis: Warte zwischen jedem Tastendruck 5 Sekunden._
 
-~hint Tell me more!
-When you press A:
+~hint Mehr erfahren!
+Wenn du A drückst:
 
-1. The LED arm moves next to the top row of plants.
-2. The micro:bit displays a sun icon on its LED display.
-3. The LED ring turns red for about 5 seconds.
-4. The LED ring turns off.
-5. The micro:bit’s LED display is cleared.
-6. The LED arm moves back to its initial position.
+1. Der LED-Arm bewegt sich neben die oberste Pflanzenreihe.
+2. Der Calliope mini zeigt ein Sonnensymbol auf seinem LED-Display an.
+3. Der LED-Ring leuchtet etwa 5 Sekunden lang rot.
+4. Der LED-Ring erlischt.
+5. Die LED-Anzeige des Calliope mini wird gelöscht.
+6. Der LED-Arm bewegt sich zurück in seine Ausgangsposition.
 
-This is the ideal lighting treatment for the plant that is located on the top stack in our vertical farm.
+Dies ist die ideale Beleuchtung für die Pflanze, die sich auf der obersten Etage unserer vertikalen Farm befindet.
 hint~
 
-## Use Step 4
+## Ausprobieren Schritt 4
 
-What happens when you press B? Press it a few times and write out an ordered list of all you notice.
+Was passiert, wenn du B drückst? Drücke die Taste mehrmals und schreibe eine geordnete Liste mit allem auf, was dir auffällt.
 
-_Note: Wait 5 seconds between each button press._
+_Hinweis: Warte zwischen jedem Tastendruck 5 Sekunden._
 
-~hint Tell me more!
-When you press B:
+~hint Mehr erfahren!
+Wenn du B drückst:
 
-1. The LED arm moves next to the middle row of plants.
-2. The micro:bit displays a sun icon on its LED display.
-3. The LED ring turns blue for about 5 seconds.
-4. The LED ring turns off.
-5. The micro:bit’s LED display is cleared.
-6. The LED arm moves back to its initial position.
+1. Der LED-Arm bewegt sich neben die mittlere Pflanzenreihe.
+2. Der Calliope mini zeigt ein Sonnensymbol auf seinem LED-Display an.
+3. Der LED-Ring leuchtet etwa 5 Sekunden lang blau.
+4. Der LED-Ring erlischt.
+5. Die LED-Anzeige des Calliope mini wird gelöscht.
+6. Der LED-Arm bewegt sich zurück in seine Ausgangsposition.
 
-This is the ideal lighting treatment for the plant that is located on the middle stack in our vertical farm.
+Dies ist die ideale Beleuchtung für die Pflanze, die sich auf dem mittleren Stapel in unserer vertikalen Farm befindet.
 hint~
 
-## Use Step 5
+## Ausprobieren Schritt 5
 
-What happens when you press A+B? Press it a few times and write out an ordered list of all you notice.
+Was passiert, wenn du A+B drückst? Drücke die Tasten mehrmals gleichzeitig und schreibe eine geordnete Liste mit allem auf, was dir auffällt.
 
-_Note: Wait 5 seconds between each button press._
+_Hinweis: Warte zwischen jedem Tastendruck 5 Sekunden._
 
-~hint Tell me more!
-When you press A+B:
+~hint Mehr erfahren!
+Wenn du A+B drückst:
 
-1. The LED arm moves next to the bottom row of plants.
-2. The micro:bit displays a sun icon on its LED display.
-3. The LED ring turns white for about 5 seconds.
-4. The LED ring turns off.
-5. The micro:bit’s LED display is cleared.
-6. The LED arm moves back to its initial position.
+1. Der LED-Arm bewegt sich neben die untere Pflanzenreihe.
+2. Der Calliope mini zeigt ein Sonnensymbol auf seinem LED-Display an.
+3. Der LED-Ring leuchtet etwa 5 Sekunden lang weiß.
+4. Der LED-Ring erlischt.
+5. Die LED-Anzeige des Calliope mini wird gelöscht.
+6. Der LED-Arm bewegt sich zurück in seine Ausgangsposition.
 
-This is the ideal lighting treatment for the plant that is located on the bottom stack in our vertical farm.
+Dies ist die ideale Beleuchtung für die Pflanze, die sich auf der untersten Etage unserer vertikalen Farm befindet.
 hint~
 
-## Use Step 6
+## Ausprobieren Schritt 6
 
-Compare and contrast these lighting treatments. What is different? What is the same?
+Vergleiche und kontrastiere diese Beleuchtungsarten. Was ist unterschiedlich? Was ist gleich?
+An dieser Stelle kannst du dir den Code unter den `||input:on button A pressed||`, `||input:on button B pressed||`, und `||input:on button A+B pressed||` Blöcken auf der Bühne anschauen, wenn es hilft!
 
-At this point, you may take a look at the code under the `||input:on button A pressed||`, `||input:on button B pressed||`, and `||input:on button A+B pressed||` blocks in our workspace, if it helps!
+~hint Mehr erfahren!
+Die Beleuchtung für jede Pflanze ist nahezu identisch. Die einzigen Unterschiede sind:
 
-~hint Tell me more!
-The lighting treatment for each plant is almost identical. The only differences are:
-
-1. where the LED arm ends up to best reach the plants in question (the angle of the positional servo motor)
-2. the colour of the LEDs
+1. die Position des LED-Arms, um die jeweiligen Pflanzen optimal zu erreichen (der Winkel des Positionsservomotors)
+2. die Farbe der LEDs
    hint~
 
-## Use Step 7
+## Ausprobieren Schritt 7
 
-Writing the same set of instructions multiple times isn’t very efficient! Plus, without a name, the purpose of all these steps might be unclear for someone who takes a single glance at the code.
+Es ist nicht sehr effizient, dieselben Anweisungen mehrmals zu schreiben! Außerdem könnte ohne einen Namen der Zweck all dieser Schritte für jemanden, der nur einen kurzen Blick auf den Code wirft, unklar sein.
 
-How might you write a single sequence of steps that could be used to treat all plants? What would you call this process? Try it now!
+Wie könntest du eine einzige Abfolge von Schritten schreiben, die zur Behandlung aller Pflanzen verwendet werden könnte? Wie würdest du diesen Prozess nennen? Probiere es jetzt aus!
 
-~hint Tell me more!
-Say we call this process: Plant Light Treatment.
+~Hinweis Mehr erfahren!
+Nennen wir diesen Prozess: Pflanzenlichtbehandlung.
 
-We could use placeholders for values that might change based on the plant species or life stage! For example, to light a plant:
+Wir könnten Platzhalter für Werte verwenden, die sich je nach Pflanzenart oder Lebensphase ändern können! Zum Beispiel, um eine Pflanze zu beleuchten:
 
-1. The LED arm moves next to the (**location**) of plants.
-2. The micro:bit displays a sun icon on its LED display.
-3. The LED ring turns (**colour**) for about 5 seconds.
-4. The LED ring turns off.
-5. The micro:bit’s LED display is cleared.
-6. The LED arm moves back to its initial position.
+1. Der LED-Arm bewegt sich neben die (**Position**) der Pflanzen.
+2. Der Calliope mini zeigt ein Sonnensymbol auf seinem LED-Display an.
+3. Der LED-Ring leuchtet etwa 5 Sekunden lang in (**Farbe**).
+4. Der LED-Ring schaltet sich aus.
+5. Die LED-Anzeige des Calliope mini wird gelöscht.
+6. Der LED-Arm bewegt sich zurück in seine Ausgangsposition.
    hint~
 
-## Use Step 8
+## Ausprobieren Schritt 8
 
-We can accomplish this in coding by writing a **function**! A function is a block of reusable code that performs a single action. In this case, that action is lighting our different plants!
+Wir können dies beim Programmieren erreichen, indem wir eine **Funktion** schreiben! Eine Funktion ist ein Block wiederverwendbaren Codes, der eine einzelne Aktion ausführt. In diesem Fall ist diese Aktion das Beleuchten unserer verschiedenen Pflanzen!
 
-We’ve prewritten a function for you. Click the arrow beside the blue block to expand the code!
+Wir haben eine Funktion für dich vorab geschrieben. Klicke auf den Pfeil neben dem blauen Block, um den Code zu erweitern!
 
-~hint Tell me more!
+~hint Mehr erfahren!
 
--   Notice how the sequence of steps is the same as those under each event, except now we are using variables for any value that changes!
+-   Beachte, dass die Reihenfolge der Schritte dieselbe ist wie unter jedem Ereignis, außer dass wir jetzt Variablen für alle Werte verwenden, die sich ändern!
     hint~
 
 ```blocks
@@ -347,26 +344,24 @@ function lightPlant (location: number, colour: number) {
 }
 ```
 
-## Use Step 9
+## Ausprobieren Schritt 9
 
-When you want to use a function in your code, you must call it.
+Wenn du eine Funktion in deinem Code verwenden möchten, musst du sie aufrufen.
+~hint Mehr erfahren!
 
-~hint Tell me more!
-
--   You can find the `||functions:call lightPlant||` block under the `||functions:Functions||` category.
+-   Du findest die `||functions:call lightPlant||` Block unter dem `||functions:Functions||` Kategorie.
     hint~
 
-## Use Step 10
+## Ausprobieren Schritt 10
 
-We have already added a `||functions:call lightPlant||` block to our code under the `||input:on logo touched||` event. Expand this code by clicking the down arrow.
+Wir haben bereits ein`||functions:call lightPlant||` Block zu unserem Code unter dem `||input:on logo touched||` Ereignis. Erweitere diesen Code, indem du auf den Abwärtspfeil klickst.
 
-Press A again, then touch the logo on the front of the micro:bit. What do you notice?
+Drücke erneut auf A und berühre dann das Logo auf der Vorderseite des Calliope mini. Was fällt dir auf?
 
-_Note: Wait 5 seconds between the button press and logo touch._
+_Hinweis: Warte zwischen dem Drücken der Taste und dem Berühren des Logos 5 Sekunden._
+~hint Mehr erfahren!
 
-~hint Tell me more!
-
--   Hopefully you’ve noticed that the lighting treatment is the same as it was before!
+-   Hoffentlich ist dir aufgefallen, dass die Beleuchtung genauso ist wie zuvor!
     hint~
 
 ```blocks
@@ -394,24 +389,25 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 ```
 
-## Use Step 11
+## Ausprobieren Schritt 11
 
-See how much easier the code is to interpret now?
+Siehst du, wie viel einfacher der Code jetzt zu interpretieren ist?
 
-By using a function, we can simplify our code, make it easier to read, and cut the amount of blocks used! Each event only requires 1 block instead of 8!
+Durch die Verwendung einer Funktion können wir unseren Code vereinfachen, ihn lesbarer machen und die Anzahl der verwendeten Blöcke reduzieren! Jedes Ereignis benötigt nur noch 1 Block statt 8!
+## Herzlichen Glückwunsch! @showdialog
 
-## Congratulations! @showdialog
+Du hast hast diese Aktivität abgeschlossen!
 
-You've completed the activity!
+## Analyse @showdialog
 
-Did anything surprise you about this project?
+Bevor wir zum Schluss kommen:
 
-## Reflection @showdialog
+Nenne zwei neue Dinge, die du heute gelernt hast.
 
-List 2 new things you learned today.
+Was ist eine Sache, über die du mehr erfahren möchtest?
 
-What is one thing you want to learn more about?
+## Fertig!
 
-## Finished! @showdialog
+Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-In the next step, you can click the `|Done|` button to finish the tutorial.
+Besuch auch mal calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!

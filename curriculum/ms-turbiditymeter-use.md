@@ -45,7 +45,7 @@ Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt
 Schaue dir dein physisches Projekt an. Kannst du die Hauptteile des NTU-Sensors identifizieren?
 
 
-Denken Sie daran:
+Denke daran:
 
 -   **NTU-Sensoren** benötigen eine Lichtquelle und einen Lichtsensor.
 

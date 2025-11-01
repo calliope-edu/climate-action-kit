@@ -25,180 +25,177 @@ fwdBase.leftServo,
 fwdLights.ledRing1.setAllPixelsColor(0xff0000)
 ```
 
-## Activity 1: Build Your Project @showdialog
+## Aktivität 1: Erstelle dein Projekt @showdialog
 
-Let's build a mobile irrigation system! We are going to do this in three parts:
+Lasst uns ein mobiles Bewässerungssystem bauen! Wir werden dies in drei Schritten tun:
 
-1. **Build** your vehicle
-2. **Add code** to your vehicle to bring it to life
-3. **Use** and **study** your vehicle to learn how it works
+1. **Bauen:** Dein Fahrzeug
+2. **Code erstellen:** Um dein Fahrzeuug zum Leben zu erwecken
+3. **Ausprobieren:** Teste dein Fahrzeug, um zu erfahren, wie es funktioniert
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-render.webp" alt="Full mobile irrigation render" style="display: block; width: 60%; margin:auto;">
 
-## Build Step 1 @showdialog
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-render.webp" alt="Full mobile irrigation render" style="display: block; width: 60%; margin:auto;">
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs01.webp)
+## Bauanleitung Schritt 1 @showdialog
 
-## Build Step 2 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs01.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs02.webp)
+## Bauanleitung Schritt 2 @showdialog
 
-## Build Step 3 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs02.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs03.webp)
+## Bauanleitung Schritt 3 @showdialog
 
-## Build Step 4 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs03.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs04.webp)
+## Bauanleitung Schritt 4 @showdialog
 
-## Build Step 5 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs04.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs05.webp)
+## Bauanleitung Schritt 5 @showdialog
 
-## Build Step 6 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs05.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs06.webp)
+## Bauanleitung Schritt 6 @showdialog
 
-## Build Step 7 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs06.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs07.webp)
+## Bauanleitung Schritt 7 @showdialog
 
-## Build Step 8 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs07.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs08.webp)
+## Bauanleitung Schritt 8 @showdialog
 
-## Build Step 9 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs08.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs09.webp)
+## Bauanleitung Schritt 9 @showdialog
 
-## Build Step 10 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs09.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs10.webp)
+## Bauanleitung Schritt 10 @showdialog
 
-## Build Step 11 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs10.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs11.webp)
+## Bauanleitung Schritt 11 @showdialog
 
-## Build Step 12 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs11.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs12.webp)
+## Bauanleitung Schritt 12 @showdialog
 
-## Build Step 13 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs12.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs13.webp)
+## Bauanleitung Schritt 13 @showdialog
 
-## Build Step 14 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs13.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs14.webp)
+## Bauanleitung Schritt 14 @showdialog
 
-## Build Step 15 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs14.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs15.webp)
+## Bauanleitung Schritt 15 @showdialog
 
-_Note: Simply place the pump on top of the vehicle. We will not use water while testing the prototype._
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs15.webp)
 
-## Build Step 16 @showdialog
+Hinweis: Setze die Pumpe einfach auf das Fahrzeug. Während der Erprobung des Prototyps wird kein Wasser verwendet.
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs16.webp)
+## Bauanleitung Schritt 16 @showdialog
 
-## Build Step 17 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs16.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs17.webp)
+## Bauanleitung Schritt 17 @showdialog
 
-_Note: If you'd like to attach the plastic tubing to the pump, you may secure it around this medium frame and pass it through the servo hole. This will help ensure the water comes from the back of the vehicle._
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs17.webp)
 
-## Build Step 18 @showdialog
+Hinweis: Wenn du den Kunststoffschlauch an der Pumpe befestigen möchtest, kannst du ihn um diesen mittleren Rahmen herum befestigen und durch die Servoöffnung führen. Dadurch wird sichergestellt, dass das Wasser aus dem hinteren Teil des Fahrzeugs kommt.
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs18.webp)
+## Bauanleitung Schritt 18 @showdialog
 
-## Build Step 19 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs18.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs19.webp)
+## Bauanleitung Schritt 19 @showdialog
 
-## Build Step 20 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs19.webp)
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/hs-mobileirrigation-sbs20.webp)
+## Bauanleitung Schritt 20 @showdialog
+
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/hs-mobileirrigation-sbs20.webp)
 
 ## Activity 2: Code Your Project @showdialog
 
-We need to connect our project to the computer to make it come to life with code!
+Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
-The code will be the instructions that tell our micro:bit what to do.
+Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
 
 ## Code Step 1 @showdialog
 
-IMPORTANT! Make sure your Climate Action Kit Breakout Board is turned on and your micro:bit is plugged into your computer.
+WICHTIG! Vergewissere dich, dass dein Climate Action Kit Breakout Board eingeschaltet und dein Calliope mini an einem Computer angeschlossen ist.
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pluganim.webp" alt="Plug micro:bit into USB port on computer" style="display: block; width: 40%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pluganim.webp" alt="Plug Calliope mini into USB port on computer" style="display: block; width: 40%; margin:auto;">
 
 ## Code Step 2 @showdialog
 
-Click the three dots beside the `|Download|` button, then click on _Connect Device_.
-Next, follow the steps to pair your micro:bit.
+Klicke auf die drei Punkte neben der Schaltfläche `|Download|` und dann auf „Gerät verbinden“.
+Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
 
 ## Code Step 3
 
-Next, click the `|Download|` button to download the code to your project.
+Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
 ## Activity 3: Use Your Project @showdialog
 
-We are now ready to **use** our mobile irrigation system!
+Wir sind nun bereit, unser mobiles Bewässerungssystem zu **verwenden**!
 
-**Tutorial Tips**
+**Tipps zum Tutorial**
 
-1. **Follow** the steps at the top of the screen.
-2. When you are ready for more detail, click **'Tell me more!'**
-3. If you need help with the code, click the **lightbulb**!
+- **Verwende** die Anweisungen oben auf dem Bildschirm.
+- Wenn du weitere Informationen benötigst, klicke auf **„Mehr erfahren!“** ().
+- Wenn du Hilfe beim Code benötigst, klicke auf die **Glühbirne**!
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
 
-## Use Step 1
+## Ausprobieren Schritt 1
 
-Take a close look at the mobile irrigation system you just built. Can you identify and name each part you used?
+Schaue dir das mobile Bewässerungssystem, das du gerade gebaut hast, genau an. Kannst jedes verwendete Teil identifizieren und benennen?
+~hint Mehr erfahren!
+Dieses System verwendet:
 
-~hint Tell me more!
-This system uses:
-
--   **Building Blocks:** The base plate, four long frames with servo holes, four medium frames, one medium frame with servo holes, three thin frames, four small frames, four cube connectors, eight corner connectors, and two wheels
--   **Robotic Parts:** A breakout board, micro:bit, two continuous servo motors, an LED ring, touch sensor and sonar sensor
+-   **Bausteine:** Die Grundplatte, vier lange Rahmen mit Servo-Bohrungen, vier mittelgroße Rahmen, einen mittelgroßen Rahmen mit Servo-Bohrungen, drei dünne Rahmen, vier kleine Rahmen, vier Würfelverbinder, acht Eckverbinder und zwei Räder
+-   **Roboterteile:** Eine Breakout-Platine, Calliope mini, zwei stufenlose Servomotoren, einen LED-Ring, einen Berührungssensor und einen Sonarsensor
     hint~
 
-## Use Step 2
+## Ausprobieren Schritt 2
 
-How do you think all these parts work together to make the vehicle operate?
-
-~hint Tell me more!
-
--   The building blocks create a structure that can withstand a variety of forces.
--   The micro:bit collects user **input** from the touch sensor.
--   The micro:bit communicates with the pump, motors, and LED ring, telling each when to activate. These components provide our **output**.
--   All parts must be correctly connected through the breakout board and cables and programmed to ensure smooth operation.
+Wie funktionieren deiner Meinung nach all diese Teile zusammen, damit das Fahrzeug fährt?
+~hint Mehr erfahren!
+- Die Bausteine bilden eine Struktur, die einer Vielzahl von Kräften standhalten kann.
+- Der Calliope mini erfasst die **Eingaben** des Benutzers über den Berührungssensor.
+- Der Calliope mini kommuniziert mit der Pumpe, den Motoren und dem LED-Ring und teilt jedem mit, wann er aktiviert werden soll. Diese Komponenten liefern unsere **Ausgabe**.
+- Alle Teile müssen über die Breakout-Platine und Kabel korrekt verbunden und programmiert sein, um einen reibungslosen Betrieb zu gewährleisten.
     hint~
 
-## Use Step 3
+## Ausprobieren Schritt 3
 
-Look at code provided below.
+Schaue dir den unten angegebenen Code an.
 
-What do you predict will happen when you run the program? What parts of the code have influenced your prediction?
+Was wird deiner Meinung nach passieren, wenn du das Programm ausführst? Welche Teile des Codes haben deine Vorhersage beeinflusst?
+## Ausprobieren Schritt 4
 
-## Use Step 4
+Starte das Fahrzeug durch Drücken des Berührungssensors. Beobachte, was passiert.
 
-Run the vehicle by pressing the touch sensor. Observe what happens.
+Hat sich das Fahrzeug so verhalten, wie du es vorhergesagt hast? Wenn nicht, was war anders? Kannst du diese Unterschiede erklären?
 
-Did the vehicle behave as you predicted? If not, what was different? Can you explain these differences?
+~hint Mehr erfahren!
+Wenn der Berührungssensor aktiviert wird, führt das Fahrzeug folgende Schritte aus:
 
-~hint Tell me more!
-When the touch sensor is activated, the vehicle:
+1. Es fährt 3 Sekunden lang vorwärts.
+2. Es hält an.
+3. Es schaltet die grünen LEDs ein, um anzuzeigen, dass die Bewässerung beginnt.
+4. Es lässt die Pumpe 1,5 Sekunden lang laufen, um die Pflanzen zu bewässern.
+5. Es schaltet die roten LEDs ein, um anzuzeigen, dass die Bewässerung abgeschlossen ist.
 
-1. Drives forward for 3 seconds.
-2. Stops.
-3. Turns on the green LEDs to indicate watering is about to happen.
-4. Runs the pump for 1.5 seconds to water the crops.
-5. Turns on the red LEDs to indicate watering is complete.
-
-This process repeats 4 times.
+Dieser Vorgang wiederholt sich viermal.
 hint~
 
 ```blocks
@@ -215,74 +212,72 @@ fwdButtons.touch1.onEvent(jacdac.ButtonEvent.Down, function () {
 })
 ```
 
-## Use Step 5
+## Ausprobieren Schritt 5
 
-Run the vehicle again. This time, calculate the speed of your mobile irrigation vehicle.
+Fahre das Fahrzeug erneut. Berechne diesmal die Geschwindigkeit deines mobilen Bewässerungsfahrzeugs.
 
-Knowing the speed will help us understand how efficiently the vehicle operates.
+Die Kenntnis der Geschwindigkeit hilft uns zu verstehen, wie effizient das Fahrzeug arbeitet.
+~hint Mehr erfahren!
 
-~hint Tell me more!
-
--   **How to Do It:** Try using [this worksheet](https://docs.google.com/spreadsheets/d/19piwhyA8-yKC_VqT9BU_wR1LtD1rLymY5Uc_YWKD5a4/edit?usp=sharing). Measure the distance your vehicle travels. Time how long it takes to cover that distance.
--   **Slope:** As you graph multiple data points along your vehicle's journey, the slope of the line of best fit should represent the vehicle's speed. Use the formula: **Speed = Distance / Time**
--   **Analyze Your Findings:** How fast does your vehicle travel? What factors affect its speed?
+-   **So geht's:** Versuche es mit[this worksheet](https://docs.google.com/spreadsheets/d/1lbxG2hC1mEXjtbOMv5Cthnl1_vBMQ_CALTbgO4zxMbk/edit?gid=0#gid=0). Messe die zurückgelegte Strecke deines Fahrzeugs. Messe die Zeit, die dein Fahrzeug benötigt, um diese Strecke zurückzulegen.
+-   **Steigung:** Wenn du mehrere Datenpunkte entlang der Fahrtstrecke deines Fahrzeugs grafisch darstellen, sollte die Steigung der besten Passgeraden die Geschwindigkeit des Fahrzeugs darstellen. Verwende diese Formel: **Geschwindigkeit = Entfernung / Zeit**
+-   **Analysieren Sie Ihre Ergebnisse:** Wie schnell fährt dein Fahrzeug? Welche Faktoren beeinflussen seine Geschwindigkeit?
     hint~
 
-## Water Conservation Modeling @showdialog
+## Wassereinsparungsmodellierung @showdialog
 
-Let's use the speed to start making some calculations about how much water this system is able to conserve.
+Lassen Sie uns anhand der Geschwindigkeit einige Berechnungen durchführen, um zu ermitteln, wie viel Wasser dieses System einsparen kann.
 
-## Modeling Step 1
+## Modellierungsschritt 1
 
-First consider how much water would be used if the pump ran _continuously_ on a 100cm drive?
+Überlegen Sie zunächst, wie viel Wasser verbraucht würde, wenn die Pumpe bei einem Hub von 100 cm _kontinuierlich_ laufen würde.
 
-_Note: Assume the maximum flow rate of the pump is approximately 28mL/second._
+_Hinweis: Nehmen Sie an, dass die maximale Durchflussrate der Pumpe etwa 28 ml/Sekunde beträgt._
+~hint Mehr erfahren!
+Die Gleichung zur Berechnung des Wasserverbrauchs für ein kontinuierliches System lautet: 𝑊(d) = 𝑟 × (d/𝑣)
+Bedeutet:
 
-~hint Tell me more!
-The equation to calculate water usage for a continuous system would be: 𝑊(d) = 𝑟 × (d/𝑣)
-
-Where:
-
--   𝑊(d) is the total water usage in milliliters
--   𝑟 is the pump speed in milliliters per second (28mL/second)
--   d is the total distance the vehicle travels in centimeters
--   𝑣 is the speed of the vehicle in centimeters per second
+-   𝑊(d) ist der Gesamtwasserverbrauch in Millilitern
+-   𝑟 ist die Pumpengeschwindigkeit in Millilitern pro Sekunde (28 ml/Sekunde)
+-   d ist die Gesamtstrecke, die das Fahrzeug in Zentimetern zurücklegt
+-   𝑣 ist die Geschwindigkeit des Fahrzeugs in Zentimetern pro Sekunde
     hint~
 
-## Modeling Step 2
+## Modellierungsschritt Schritt 2
 
-Thankfully the prototype we've just built only runs the pump _periodically_. How much water would _this_ prototype use on a 100cm drive? What equation would you use in this scenario?
+Glücklicherweise läuft die Pumpe in dem von uns gerade gebauten Prototyp nur in regelmäßigen Abständen. Wie viel Wasser würde dieser Prototyp bei einer Fahrt von 100 cm verbrauchen? Welche Gleichung würdest du in diesem Szenario verwenden?
 
-Think about what variables you need to consider (e.g. time, distance, vehicle speed, pump speed/flow rate, pump time, etc.)? How do these variables relate to water usage in the current prototype?
+Überlege, welche Variablen du berücksichtigen musst (z. B. Zeit, Entfernung, Fahrzeuggeschwindigkeit, Pumpendrehzahl/Durchflussrate, Pumpzeit usw.). In welchem Zusammenhang stehen diese Variablen mit dem Wasserverbrauch im aktuellen Prototyp?
 
-~hint Tell me more!
-To calculate the water usage for the mobile irrigation system we've just built, we will use this equation: 𝑊(d) = 𝑟 × d × fd × tp
+~hint Mehr erfahren!
+Um den Wasserverbrauch für das gerade gebaute mobile Bewässerungssystem zu berechnen, verwenden wir folgende Gleichung: 𝑊(d) = 𝑟 × d × fd × tp
+Bedeutet:
 
-Where:
-
--   𝑊(d) is the water usage in milliliters
--   𝑟 is the pump speed in milliliters per second (28 mL/second)
--   fd is the pumping frequency (e.g., number of activations per centimeter)
--   d is the total distance traveled in cm
--   tp is the pump time per activation (1.5 seconds)
+- 𝑊(d) ist der Wasserverbrauch in Millilitern
+- 𝑟 ist die Pumpgeschwindigkeit in Millilitern pro Sekunde (28 ml/Sekunde)
+- fd ist die Pumpfrequenz (z. B. Anzahl der Aktivierungen pro Zentimeter)
+- d ist die zurückgelegte Gesamtstrecke in cm
+- tp ist die Pumpzeit pro Aktivierung (1,5 Sekunden)
     hint~
 
-## Modeling Step 3
+## Modellierungsschritt Schritt 3
 
-Finally, it's time to calculate how much water this prototype saves compared to the continuous system.
+Schließlich ist es an der Zeit zu berechnen, wie viel Wasser dieser Prototyp im Vergleich zum kontinuierlichen System einspart.
 
-Subtract the water used in the prototype from the water used in the continuous system. What does this difference tell you about the efficiency of your design? How could the water savings from your design impact agricultural practices in areas facing water scarcity?
+Ziehe den Wasserverbrauch des Prototyps vom Wasserverbrauch des kontinuierlichen Systems ab. Was sagt dir diese Differenz über die Effizienz deines Entwurfs? Wie könnten sich die Wassereinsparungen deines Entwurfs auf die landwirtschaftlichen Praktiken in Gebieten mit Wasserknappheit auswirken?
 
-## Congratulations! @showdialog
+## Herzlichen Glückwunsch! @showdialog
 
-You've completed the activity!
+Du hast hast diese Aktivität abgeschlossen!
 
-## Reflection @showdialog
+## Analyse @showdialog
 
-List 2 new things you learned today.
+Bevor wir zum Schluss kommen:
 
-What is one thing you want to learn more about?
+Nenne eine Sache, die du heute gelernt hast?
 
-## Finished! @showdialog
+## Fertig!
 
-In the next step, you can click the `|Done|` button to finish the tutorial.
+Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
+
+Besuch auch mal calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
