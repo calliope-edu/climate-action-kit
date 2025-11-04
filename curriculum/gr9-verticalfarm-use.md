@@ -2,6 +2,7 @@
 
 ```package
 fwd-climate-action=github:calliope-edu/climate-action-kit#v1.1.0
+v3
 ```
 
 ## Aktivität 1: Erstelle dein Projekt @showdialog
@@ -101,7 +102,7 @@ Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun s
 
 ```template
 input.onButtonPressed(Button.A, function () {
-    fwdBase.leftServo.setAngleAndWait(10)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, 10)
     basic.showLeds(`
         # . # . #
         . # # # .
@@ -113,11 +114,11 @@ input.onButtonPressed(Button.A, function () {
     basic.pause(5000)
     fwdLights.ledRing1.setAllPixelsColor(0x000000)
     basic.clearScreen()
-    fwdBase.leftServo.setAngleAndWait(0)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, 0)
     basic.pause(5000)
 })
 input.onButtonPressed(Button.B, function () {
-    fwdBase.leftServo.setAngleAndWait(60)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, 60)
     basic.showLeds(`
         # . # . #
         . # # # .
@@ -129,11 +130,11 @@ input.onButtonPressed(Button.B, function () {
     basic.pause(5000)
     fwdLights.ledRing1.setAllPixelsColor(0x000000)
     basic.clearScreen()
-    fwdBase.leftServo.setAngleAndWait(0)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, 0)
     basic.pause(5000)
 })
 input.onButtonPressed(Button.AB, function () {
-    fwdBase.leftServo.setAngleAndWait(120)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, 120)
     basic.showLeds(`
         # . # . #
         . # # # .
@@ -145,7 +146,7 @@ input.onButtonPressed(Button.AB, function () {
     basic.pause(5000)
     fwdLights.ledRing1.setAllPixelsColor(0x000000)
     basic.clearScreen()
-    fwdBase.leftServo.setAngleAndWait(0)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, 0)
     basic.pause(5000)
 })
 
@@ -153,7 +154,7 @@ fwdBase.leftServo.setAngleAndWait(0)
 
 // @collapsed
 function lightPlant (location: number, colour: number) {
-    fwdBase.leftServo.setAngleAndWait(location)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, location)
     basic.showLeds(`
         # . # . #
         . # # # .
@@ -165,7 +166,7 @@ function lightPlant (location: number, colour: number) {
     basic.pause(5000)
     fwdLights.ledRing1.setAllPixelsColor(0x000000)
     basic.clearScreen()
-    fwdBase.leftServo.setAngleAndWait(0)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, 0)
     basic.pause(5000)
 }
 
@@ -327,7 +328,7 @@ Wir haben eine Funktion für dich vorab geschrieben. Klicke auf den Pfeil neben 
 
 ```blocks
 function lightPlant (location: number, colour: number) {
-    fwdBase.leftServo.setAngleAndWait(location)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, location)
     basic.showLeds(`
         # . # . #
         . # # # .
@@ -339,7 +340,7 @@ function lightPlant (location: number, colour: number) {
     basic.pause(5000)
     fwdLights.ledRing1.setAllPixelsColor(0x000000)
     basic.clearScreen()
-    fwdBase.leftServo.setAngleAndWait(0)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, 0)
     basic.pause(5000)
 }
 ```
@@ -367,7 +368,7 @@ _Hinweis: Warte zwischen dem Drücken der Taste und dem Berühren des Logos 5 Se
 ```blocks
 // @hide
 function lightPlant (location: number, colour: number) {
-    fwdBase.leftServo.setAngleAndWait(location)
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, location)
     basic.showLeds(`
         # . # . #
         . # # # .

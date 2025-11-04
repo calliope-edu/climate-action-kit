@@ -3,15 +3,16 @@
 ```package
 fwd-climate-action=github:calliope-edu/climate-action-kit
 datalogger=datalogger
+v3
 ```
 
 ```template
 fwdButtons.touch1.onEvent(jacdac.ButtonEvent.Down, function () {
-    fwdBase.middleServo.setSpeed(0)
+    fwdMotors.setAngleAndWait(fwdBase.middleServo, 0)
 })
 
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Clockwise, function () {
-    fwdBase.middleServo.setSpeed(-50)
+    fwdMotors.setAngleAndWait(fwdBase.middleServo, -50)
 })
 
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
@@ -172,7 +173,7 @@ Klicke im Sensorblock auf das Dropdown-Menü von „setze **linken Servo**“.
     hint~
 
 ```block
- fwdBase.middleServo.setSpeed(50)
+ fwdMotors.setAngleAndWait(fwdBase.middleServo, 50)
 ```
 
 ## Modifizieren Schritt 3
@@ -187,7 +188,7 @@ Wie kann man das Ereignis „||fwdSensors:on dial1 turned difference||“ und �
 
 ```block
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-    fwdBase.middleServo.setSpeed(50)
+    fwdMotors.setAngleAndWait(fwdBase.middleServo, 50)
 })
 ```
 
@@ -196,15 +197,15 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 Klicke auf die Schaltfläche `|Download|`, um den Code in Ihr Projekt herunterzuladen.
 ```block
 fwdButtons.touch1.onEvent(jacdac.ButtonEvent.Down, function () {
-    fwdBase.middleServo.setSpeed(0)
+    fwdMotors.setAngleAndWait(fwdBase.middleServo, 0)
 })
 
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Clockwise, function () {
-    fwdBase.middleServo.setSpeed(-50)
+    fwdMotors.setAngleAndWait(fwdBase.middleServo, -50)
 })
 
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-    fwdBase.middleServo.setSpeed(50)
+    fwdMotors.setAngleAndWait(fwdBase.middleServo, 50)
 })
 ```
 

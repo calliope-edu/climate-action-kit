@@ -3,6 +3,7 @@
 ```package
 fwd-climate-action-kit=github:calliope-edu/climate-action-kit
 datalogger=datalogger
+v3
 ```
 
 ```template
