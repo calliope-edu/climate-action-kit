@@ -149,11 +149,11 @@ Nachdem wir nun mithilfe von Code eine Windkraftanlage erstellt haben, die sich 
 
 ## Modifizieren Schritt 1
 
-Im Arbeitsbereich gibt es ein Ereignis „||fwdSensors:on dial1 turned difference||“, das wir noch nicht verwendet haben. Wie kannst du dieses leere Ereignis verwenden, damit sich die Windkraftanlage nach **links** dreht, wenn wir den Drehknopf auch nach **links** drehen?
+Im Arbeitsbereich gibt es ein Ereignis ``||fwdButtons:on dial1 rotated||``, das wir noch nicht verwendet haben. Wie kannst du dieses leere Ereignis verwenden, damit sich die Windkraftanlage nach **links** dreht, wenn wir den Drehknopf auch nach **links** drehen?
 
 ~hint Mehr erfahren!
 
--   Der Block „||fwdSensors:on dial1 turned difference||“ ist der Block, der die neue **Eingabe** (das Drehen des Drehknopfs nach **links**) erfasst.
+-   Der Block ``||fwdButtons:on dial1 rotated||`` ist der Block, der die neue **Eingabe** (das Drehen des Drehknopfs nach **links**) erfasst.
     hint~
 
 ```blocks
@@ -163,7 +163,7 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 
 ## Modifizieren Schritt 2
 
-Öffne die Kategorie „||fwdMotors:Motors||“ und ziehe „||fwdMotors:set leftServo to 50 %||“ per Drag & Drop auf die Bühne.
+Öffne die Kategorie ``||fwdMotors:Motors||`` und ziehe ``||fwdMotors:set leftServo to 50 %||`` per Drag & Drop auf die Bühne.
 
 Klicke im Sensorblock auf das Dropdown-Menü von „setze **linken Servo**“.
 
@@ -180,11 +180,11 @@ Klicke im Sensorblock auf das Dropdown-Menü von „setze **linken Servo**“.
 
 ## Modifizieren Schritt 3
 
-Wie kann man das Ereignis „||fwdSensors:on dial1 turned difference||“ und „||fwdMotors:set middleServo to 50 %||“ kombinieren, damit sich die Windkraftanlage **nach links** dreht, wenn der Drehknopf auch **nach links** gedreht wird?
+Wie kann man das Ereignis ``||fwdButtons:on dial1 turned difference||`` und ``||fwdMotors:set middleServo to 50 %||`` kombinieren, damit sich die Windkraftanlage **nach links** dreht, wenn der Drehknopf auch **nach links** gedreht wird?
 
 ~hint Mehr erfahren!
 
-- Ziehe den blauen Block „||fwdMotors:set middleServo to 50 %||“ per Drag & Drop in das leere Ereignis „||fwdSensors:on dial1 turned difference||“.
+- Ziehe den blauen Block ``||fwdMotors:set middleServo to 50 %||`` per Drag & Drop in das leere Ereignis ``||fwdButtons:on dial1 rotated||``.
 - Hinweis: Der Motorblock sollte nun blau werden!
     hint~
 
