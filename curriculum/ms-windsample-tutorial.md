@@ -113,6 +113,7 @@ Der Code im Arbeitsbereich sorgt dafür, dass sich unsere Windkraftanlage dreht 
 ## Ausprobieren Schritt 2
 
 Wenn du den Drehknopf nach **rechts** drehen, beobachten Sie, was im virtuellen Simulator-Panel _und_ an Ihrer physischen Windkraftanlage passiert.
+
 ~hint Mehr erfahren!
 
 -   Mit den Simulatoren auf der linken Seite des Arbeitsbereichs kannst du in Echtzeit verfolgen, was mit dem Climate Action Kit passiert, wenn du den Motor und die Drehregler betätigst!
@@ -165,6 +166,7 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 Öffne die Kategorie „||fwdMotors:Motors||“ und ziehe „||fwdMotors:set leftServo to 50 %||“ per Drag & Drop auf die Bühne.
 
 Klicke im Sensorblock auf das Dropdown-Menü von „setze **linken Servo**“.
+
 ~hint Mehr erfahren!
 
 - Mit dem Climate Action Kit kannst du bis zu **3 Motoren gleichzeitig** verwenden! Wir haben unsere Windkraftanlage mit dem **mittleren** Anschluss (M) gebaut, daher müssen wir unseren Sensor mit dem **mittleren** Servo programmieren.
