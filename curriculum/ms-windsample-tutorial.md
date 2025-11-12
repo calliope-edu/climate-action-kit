@@ -34,7 +34,7 @@ Lasst uns eine automatisierte Windkraftanlage bauen. Wir werden dies in vier Sch
 ## Bauanleitung Schritt 1 @showdialog
 
 ![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs01.webp)
-## Bauanleitung Schritt 1
+
 ## Bauanleitung Schritt 2 @showdialog
 
 ![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs02.webp)
