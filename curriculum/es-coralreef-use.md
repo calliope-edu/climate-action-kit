@@ -8,17 +8,17 @@ v3
 
 ```template
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-    temperature += -1
+    temperatur += -1
 })
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Clockwise, function () {
-    temperature += 1
+    temperatur += 1
 })
-let temperature = 28
+let temperatur = 28
 basic.forever(function () {
-    basic.showNumber(temperature)
+    basic.showNumber(temperatur)
 })
 basic.forever(function () {
-    if (temperature > 30) {
+    if (temperatur > 30) {
         fwdLights.ledRing1.setAllPixelsColor(0xffffff)
     } else {
         fwdLights.ledRing1.setAllPixelsColor(0xff0080)
@@ -32,7 +32,7 @@ basic.forever(function () {
 Lasst uns unser Korallenriff-Modell bauen! Wir werden dies in drei Schritten tun:
 
 1. **Bauen:** Den Prototypen konstruieren
-2. **Code erstellen:** Das Projekt zum Leben zu erwecken
+2. **Code erstellen:** Das Projekt zum Leben erwecken
 3. **Ausprobieren:** Herausfinden, ob der fertige Prototyp funktioniert
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/es-coralreef-render.webp" alt="Full coral reef model render" style="display: block; width: 70%; margin:auto;">
@@ -122,6 +122,7 @@ Wir sind nun bereit, unser Korallenriffmodell **auszuprobieren**, um zu sehen, w
 ## Ausprobieren Schritt 1
 
 Schau dir das Modell, das du gerade gebaut hast, genau an. Kannst du die verschiedenen Teile benennen, die du dafür verwendet hast? Sei dabei möglichst genau!
+
 ~hint Mehr erfahren!
 Dieses Modell verwendet:
 
@@ -133,6 +134,7 @@ Dieses Modell verwendet:
 ## Ausprobieren Schritt 2
 
 Was glaubst du, was die verschiedenen Teile des Modells darstellen?
+
 ~hint Mehr erfahren!
 
 -   Der LED-Ring stellt die Koralle dar. Seine Farbe zeigt an, ob die Koralle gesund oder gebleicht ist. Wir verwenden Seidenpapier, damit der LED-Ring noch mehr wie eine Koralle aussieht. Es stellt die Tentakel des Korallenpolypen dar!
@@ -142,6 +144,7 @@ Was glaubst du, was die verschiedenen Teile des Modells darstellen?
 
 Es ist an der Zeit, das Modell zu testen, indem du den Drehknopf langsam um eine Stufe nach rechts drehst.
 Was fällt dir auf?
+
 ~hint Mehr erfahren!
 
 - Die Zahl auf dem LED-Bildschirm des Calliope mini hat sich um 1 erhöht.
@@ -153,6 +156,7 @@ Was fällt dir auf?
 Wir verwenden eine **Variable**, um die Temperatur zu speichern. Variablen sind wie Kisten, die Informationen für uns aufbewahren.
 
 Jedes Mal, wenn du den Drehknopf drehst, ändert sich die Temperaturvariable entsprechend der Drehrichtung. Versuche, den Drehknopf um eine Stufe nach links zu drehen. Was passiert?
+
 ~hint Mehr erfahren!
 So funktioniert es:
 - Die Variable enthält die aktuelle Temperatur. In diesem Programm beginnt die Temperatur bei 28 °C.
@@ -161,18 +165,18 @@ So funktioniert es:
 hint~
 
 ```block
-let temperature = 28
+let temperatur = 28
 
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Clockwise, function () {
-    temperature += 1
+    temperatur += 1
 })
 
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-    temperature += -1
+    temperatur += -1
 })
 
 basic.forever(function () {
-    basic.showNumber(temperature)
+    basic.showNumber(temperatur)
 })
 ```
 
@@ -181,6 +185,7 @@ basic.forever(function () {
 Drehe den Regler weiter, bis die Temperatur über 30 °C liegt.
 
 Was fällt dir auf?
+
 ~hint Mehr erfahren!
 
 -   Wenn die Temperatur über 30 °C liegt, leuchten die LEDs auf dem LED-Ring weiß.
@@ -196,6 +201,7 @@ Eine Bedingung ist eine Regel, die dem Calliope mini mitteilt, was zu tun ist, w
 ## Ausprobieren Schritt 8
 
 Kannst du die Bedingung im folgenden Code finden?
+
 ~hint Mehr erfahren!
 
 - Bei Temperaturen über 30 °C bleicht die Koralle aus (die LED leuchtet weiß).
@@ -203,7 +209,7 @@ Kannst du die Bedingung im folgenden Code finden?
     hint~
 
 ```block
-    if (temperature > 30) {
+    if (temperatur > 30) {
         fwdLights.ledRing1.setAllPixelsColor(0xffffff)
     } else {
         fwdLights.ledRing1.setAllPixelsColor(0xff0080)
@@ -213,6 +219,7 @@ Kannst du die Bedingung im folgenden Code finden?
 ## Ausprobieren Schritt 9
 
 Inwiefern ist dies ein gutes Modell für die Korallenbleiche im wirklichen Leben?
+
 ~hint Mehr erfahren!
 
 Stärken:
@@ -227,7 +234,7 @@ Stärken:
 
 Was sind einige Einschränkungen dieses Modells? Zeigt es wirklich alles, was in einem echten Korallenriff passiert?
 
-~Hinweis Erzähl mir mehr!
+~hint Erzähl mir mehr!
 
 - In diesem Modell tritt die Bleiche plötzlich auf. In Wirklichkeit verläuft die Korallenbleiche langsam über einen längeren Zeitraum, wenn die Wassertemperatur steigt.
 - Das Modell zeigt nur Temperaturänderungen, aber in der Realität können auch Faktoren wie Umweltverschmutzung oder zu viel Sonnenlicht zur Korallenbleiche führen.
@@ -252,4 +259,4 @@ Was ist eine Sache, über die du mehr erfahren möchtest?
 
 Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-Besuch auch mal calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
+Auf der Internetseite **calliope.cc** findest du weitere inspirierende Ideen und Projekte!

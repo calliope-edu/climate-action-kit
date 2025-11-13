@@ -221,4 +221,4 @@ Nenne eine Sache, die du heute gelernt hast?
 
 Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-Auf der Internetseite **calliope.cc**, findest du weitere inspirierende Ideen und Projekte!
+Auf der Internetseite **calliope.cc** findest du weitere inspirierende Ideen und Projekte!

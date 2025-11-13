@@ -1,7 +1,7 @@
 # Optimierung des Pflanzenwachstums mit LED-Wachstumslampen
 
 ```package
-fwd-climate-action=github:calliope-edu/climate-action-kit#v1.1.0
+fwd-climate-action-kit=github:calliope-edu/climate-action-kit
 v3
 ```
 
@@ -9,7 +9,7 @@ v3
 Lasst uns einen Prototyp einer vertikalen Farm bauen! Wir werden dies in drei Teilen tun:
 
 1. **Bauen:** Den Prototypen konstruieren
-2. **Code erstellen:** Das Projekt zum Leben zu erwecken
+2. **Code erstellen:** Das Projekt zum Leben erwecken
 3. **Ausprobieren:** Herausfinden, ob der Prototyp unserer vertikalen Farm funktioniert
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-thumbnail-render.webp" alt="Full vertical farm render" style="display: block; width: 60%; margin:auto;">
@@ -94,7 +94,7 @@ Lasst uns einen Prototyp einer vertikalen Farm bauen! Wir werden dies in drei Te
 
 ![verticalfarmsbs](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/gr9-verticalfarm-sbs21.webp)
 
-## Aktivität 2: Code Your Project @showdialog
+## Aktivität 2: Programmieren @showdialog
 
 Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
@@ -150,11 +150,11 @@ input.onButtonPressed(Button.AB, function () {
     basic.pause(5000)
 })
 
-fwdBase.leftServo.setAngleAndWait(0)
+fwdMotors.setAngleAndWait(fwdBase.leftServo, 0)
 
 // @collapsed
-function lightPlant (location: number, colour: number) {
-    fwdMotors.setAngleAndWait(fwdBase.leftServo, location)
+function automatischeBelichtung (position: number, farbe: number) {
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, position)
     basic.showLeds(`
         # . # . #
         . # # # .
@@ -162,7 +162,7 @@ function lightPlant (location: number, colour: number) {
         . # # # .
         # . # . #
         `)
-    fwdLights.ledRing1.setAllPixelsColor(colour)
+    fwdLights.ledRing1.setAllPixelsColor(farbe)
     basic.pause(5000)
     fwdLights.ledRing1.setAllPixelsColor(0x000000)
     basic.clearScreen()
@@ -172,7 +172,7 @@ function lightPlant (location: number, colour: number) {
 
 // @collapsed
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
-    lightPlant(10, 16711680)
+    automatischeBelichtung(10, 16711680)
 })
 ```
 
@@ -193,14 +193,14 @@ Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
 Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
-## Aktivität 3: Use Your Project @showdialog
+## Aktivität 3: Programmieren @showdialog
 
 Wir sind bereit, unseren **Prototyp** einer vertikalen Farm einzusetzen!
 
-~hint 
 - **Verwende** die Anweisungen oben auf dem Bildschirm.
-- Wenn du weitere Informationen benötigst, klicke auf **„Mehr erfahren!“** ().
+- Wenn du weitere Informationen benötigst, klicke auf **„Mehr erfahren!“**.
 - Wenn du Hilfe beim Code benötigst, klicke auf die **Glühbirne**!
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
 
 ## Ausprobieren Schritt 1
 
@@ -211,7 +211,7 @@ Unsere vertikale Farm verfügt über:
 
 -   **Bausteine**: eine Grundplatte, zwei lange Rahmen, einen mittleren Rahmen, vier kleine Rahmen, einen Kreis, drei Würfelverbinder und drei Eckverbinder
 -   **Robotikkomponenten**: einen Calliope mini, eine Breakout-Platine, eine Batterie, einen Positionsservomotor und einen LED-Ring
--   Einen langen Kabelverbinder
+-   einen langen Kabelverbinder
     hint~
 
 ## Ausprobieren Schritt 2
@@ -229,7 +229,7 @@ Was ist deiner Meinung nach der Zweck der einzelnen Teile? Wie wirken sie mitein
 
 Beginnen wir damit, unsere vertikale Farm zu testen.
 
-Was passiert, wenn du A drückst? Drücke die Taste mehrmals und schreiben eine geordnete Liste mit allem auf, was dir auffällt.
+Was passiert, wenn du A drückst? Drücke die Taste mehrmals und schreibe eine geordnete Liste mit allem auf, was dir auffällt.
 
 _Hinweis: Warte zwischen jedem Tastendruck 5 Sekunden._
 
@@ -287,7 +287,7 @@ hint~
 ## Ausprobieren Schritt 6
 
 Vergleiche und kontrastiere diese Beleuchtungsarten. Was ist unterschiedlich? Was ist gleich?
-An dieser Stelle kannst du dir den Code unter den `||input:on button A pressed||`, `||input:on button B pressed||`, und `||input:on button A+B pressed||` Blöcken auf der Bühne anschauen, wenn es hilft!
+An dieser Stelle kannst du dir den Code unter den `||input:wenn Knopf A geklickt||`, `||input:wenn Knopf B geklickt||`, und `||input:wenn Knopf A+B geklickt||` Blöcken auf der Bühne anschauen, wenn es hilft!
 
 ~hint Mehr erfahren!
 Die Beleuchtung für jede Pflanze ist nahezu identisch. Die einzigen Unterschiede sind:
@@ -302,8 +302,8 @@ Es ist nicht sehr effizient, dieselben Anweisungen mehrmals zu schreiben! Außer
 
 Wie könntest du eine einzige Abfolge von Schritten schreiben, die zur Behandlung aller Pflanzen verwendet werden könnte? Wie würdest du diesen Prozess nennen? Probiere es jetzt aus!
 
-~Hinweis Mehr erfahren!
-Nennen wir diesen Prozess: Pflanzenlichtbehandlung.
+~hint Mehr erfahren!
+Nennen wir diesen Prozess: automatische Belichtung.
 
 Wir könnten Platzhalter für Werte verwenden, die sich je nach Pflanzenart oder Lebensphase ändern können! Zum Beispiel, um eine Pflanze zu beleuchten:
 
@@ -327,8 +327,8 @@ Wir haben eine Funktion für dich vorab geschrieben. Klicke auf den Pfeil neben 
     hint~
 
 ```blocks
-function lightPlant (location: number, colour: number) {
-    fwdMotors.setAngleAndWait(fwdBase.leftServo, location)
+function automatischeBelichtung (position: number, farbe: number) {
+    fwdMotors.setAngleAndWait(fwdBase.leftServo, position)
     basic.showLeds(`
         # . # . #
         . # # # .
@@ -336,7 +336,7 @@ function lightPlant (location: number, colour: number) {
         . # # # .
         # . # . #
         `)
-    fwdLights.ledRing1.setAllPixelsColor(colour)
+    fwdLights.ledRing1.setAllPixelsColor(farbe)
     basic.pause(5000)
     fwdLights.ledRing1.setAllPixelsColor(0x000000)
     basic.clearScreen()
@@ -348,18 +348,20 @@ function lightPlant (location: number, colour: number) {
 ## Ausprobieren Schritt 9
 
 Wenn du eine Funktion in deinem Code verwenden möchten, musst du sie aufrufen.
+
 ~hint Mehr erfahren!
 
--   Du findest die `||functions:call lightPlant||` Block unter dem `||functions:Functions||` Kategorie.
+-   Du findest den `||functions:Aufruf automatischeBelichtung||` Block unter der `||functions:Funktionen||` Kategorie.
     hint~
 
 ## Ausprobieren Schritt 10
 
-Wir haben bereits ein`||functions:call lightPlant||` Block zu unserem Code unter dem `||input:on logo touched||` Ereignis. Erweitere diesen Code, indem du auf den Abwärtspfeil klickst.
+Wir haben bereits einen `||functions:Aufruf automatischeBelichtung||` Block im Code unter dem `||input:wenn Logo gedrückt||` Ereignis. Erweitere diesen Code, indem du auf den Abwärtspfeil klickst.
 
 Drücke erneut auf A und berühre dann das Logo auf der Vorderseite des Calliope mini. Was fällt dir auf?
 
 _Hinweis: Warte zwischen dem Drücken der Taste und dem Berühren des Logos 5 Sekunden._
+
 ~hint Mehr erfahren!
 
 -   Hoffentlich ist dir aufgefallen, dass die Beleuchtung genauso ist wie zuvor!
@@ -367,7 +369,7 @@ _Hinweis: Warte zwischen dem Drücken der Taste und dem Berühren des Logos 5 Se
 
 ```blocks
 // @hide
-function lightPlant (location: number, colour: number) {
+function automatischeBelichtung (location: number, colour: number) {
     fwdMotors.setAngleAndWait(fwdBase.leftServo, location)
     basic.showLeds(`
         # . # . #
@@ -411,4 +413,4 @@ Was ist eine Sache, über die du mehr erfahren möchtest?
 
 Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-Besuch auch mal calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
+Auf der Internetseite **calliope.cc** findest du weitere inspirierende Ideen und Projekte!
