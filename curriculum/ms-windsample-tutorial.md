@@ -7,17 +7,16 @@ v3
 ```
 
 ```template
-fwdButtons.touch1.onEvent(jacdac.ButtonEvent.Down, function () {
-    fwdMotors.setAngleAndWait(fwdBase.middleServo, 0)
+fwdButtons.dialButton1.onEvent(jacdac.ButtonEvent.Down, function () {
+    fwdMotors.setSpeed(fwdBase.middleServo, 0)
 })
-
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Clockwise, function () {
-    fwdMotors.setAngleAndWait(fwdBase.middleServo, -50)
+    fwdMotors.setSpeed(fwdBase.middleServo, 50)
 })
-
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-
+	
 })
+
 ```
 
 ## Aktivität 1: Erstelle dein Projekt @showdialog
@@ -25,9 +24,9 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 Lasst uns eine automatisierte Windkraftanlage bauen. Wir werden dies in vier Schritten tun:
 
 1. **Bauen:** Den Prototypen konstruieren
-2. **Code erstellen:** Das Projekt zum Leben zu erwecken
+2. **Code erstellen:** Das Projekt zum Leben erwecken
 3. **Ausprobieren:** Herausfinden, ob der fertige Prototyp funktioniert
-4. **Modifizieren:** Verändere dein Projekt mit einer kleinen Programmieraufgabe
+4. **Modifizieren:** Das Projekt mit einer kleinen Programmieraufgabe verändern
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-render.webp" alt="Full sample wind tubine render" style="display: block; width: 60%; margin:auto;">
 
@@ -71,7 +70,7 @@ Lasst uns eine automatisierte Windkraftanlage bauen. Wir werden dies in vier Sch
 
 ![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs10.webp)
 
-## Activity 2: Code erstellen @showdialog
+## Aktivität 2: Code erstellen @showdialog
 
 Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
@@ -95,32 +94,32 @@ Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt
 
 ## Aktivität 3: Ausprobieren @showdialog
 
-Die Lektionsbibliothek des Climate Action Kit ermöglicht es, Lernen in drei Projektphasen zu strukturieren: **Verwenden, Modifizieren und Erstellen.**
+Das Tutorial ermöglicht es, Lernen in drei Projektphasen zu strukturieren: **Verwenden, Modifizieren und Erstellen.**
 
 Nachdem wir nun unsere Windkraftanlage gebaut haben, beginnen wir damit, den Beispielcode zu **verwenden**, um zu sehen, wie sie funktioniert.
 
 Während du die nächsten Schritte durchgehst:
 
 - **Verwende** die Anweisungen oben auf dem Bildschirm.
-- Wenn du weitere Informationen benötigst, klicke auf **„Mehr erfahren!“** ().
+- Wenn du weitere Informationen benötigst, klicke auf **„Mehr erfahren!“**.
 - Wenn du Hilfe beim Code benötigst, klicke auf die **Glühbirne**!
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
 
 ## Ausprobieren Schritt 1
 
-Der Code im Arbeitsbereich sorgt dafür, dass sich unsere Windkraftanlage dreht und stoppt.
+Der Code im Arbeitsbereich sorgt dafür, dass sich deine Windkraftanlage dreht und stoppt.
 ## Ausprobieren Schritt 2
 
-Wenn du den Drehknopf nach **rechts** drehen, beobachten Sie, was im virtuellen Simulator-Panel _und_ an Ihrer physischen Windkraftanlage passiert.
+Wenn du den Drehknopf nach **rechts** drehst, beobachte was im virtuellen Simulator-Panel _und_ an deiner physischen Windkraftanlage passiert.
 
 ~hint Mehr erfahren!
 
 -   Mit den Simulatoren auf der linken Seite des Arbeitsbereichs kannst du in Echtzeit verfolgen, was mit dem Climate Action Kit passiert, wenn du den Motor und die Drehregler betätigst!
 - Wenn wir den Drehregler nach rechts drehen, sollte der Motor im virtuellen Simulator **und** in der Windkraftanlage reagieren!
 - Dies wird als **Eingabe** und **Ausgabe** des Codes bezeichnet:
-    _ **Eingabe** – Drehknopf nach rechts drehen
-    _ **Ausgabe** – Motor dreht sich nach rechts
+     - **Eingabe**: Drehknopf nach rechts drehen
+     - **Ausgabe**: Motor dreht sich nach rechts
     hint~
 
 ## Ausprobieren Schritt 3
@@ -149,11 +148,11 @@ Nachdem wir nun mithilfe von Code eine Windkraftanlage erstellt haben, die sich 
 
 ## Modifizieren Schritt 1
 
-Im Arbeitsbereich gibt es ein Ereignis ``||fwdButtons:on dial1 rotated||``, das wir noch nicht verwendet haben. Wie kannst du dieses leere Ereignis verwenden, damit sich die Windkraftanlage nach **links** dreht, wenn wir den Drehknopf auch nach **links** drehen?
+Im Arbeitsbereich gibt es ein Ereignis ``||fwdButtons:on dial1 rotated ↺||``, das wir noch nicht verwendet haben. Wie kannst du dieses leere Ereignis verwenden, damit sich die Windkraftanlage nach **links** dreht, wenn wir den Drehknopf auch nach **links** drehen?
 
 ~hint Mehr erfahren!
 
--   Der Block ``||fwdButtons:on dial1 rotated||`` ist der Block, der die neue **Eingabe** (das Drehen des Drehknopfs nach **links**) erfasst.
+-   Der Block ``||fwdButtons:on dial1 rotated ↺||`` ist der Block, der die neue **Eingabe** (das Drehen des Drehknopfs nach **links**) erfasst.
     hint~
 
 ```blocks
@@ -163,9 +162,9 @@ fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, 
 
 ## Modifizieren Schritt 2
 
-Öffne die Kategorie ``||fwdMotors:Motors||`` und ziehe ``||fwdMotors:set leftServo to 50 %||`` per Drag & Drop auf die Bühne.
+Öffne die Kategorie ``||fwdMotors:Motors||`` und ziehe ``||fwdMotors:set leftServo to 0 %||`` per Drag & Drop auf die Bühne.
 
-Klicke im Sensorblock auf das Dropdown-Menü von „setze **linken Servo**“.
+Klicke im Motorblock auf das Dropdown-Menü von **leftServo** und ändere die Auswahl auf **middleServo**. Erhöhe die Geschwindigkeit auf **-50%**. Der negative Wert rotiert den Motor in die andere Richtung.
 
 ~hint Mehr erfahren!
 
@@ -175,39 +174,37 @@ Klicke im Sensorblock auf das Dropdown-Menü von „setze **linken Servo**“.
     hint~
 
 ```block
- fwdMotors.setAngleAndWait(fwdBase.middleServo, 50)
+ fwdMotors.setSpeed(fwdBase.middleServo, -50)
 ```
 
 ## Modifizieren Schritt 3
 
-Wie kann man das Ereignis ``||fwdButtons:on dial1 turned difference||`` und ``||fwdMotors:set middleServo to 50 %||`` kombinieren, damit sich die Windkraftanlage **nach links** dreht, wenn der Drehknopf auch **nach links** gedreht wird?
+Wie kann man das Ereignis ``||fwdButtons:on dial1 rotated ↺||`` und ``||fwdMotors:set middleServo to -50 %||`` kombinieren, damit sich die Windkraftanlage **nach links** dreht, wenn der Drehknopf auch **nach links** gedreht wird?
 
 ~hint Mehr erfahren!
 
-- Ziehe den blauen Block ``||fwdMotors:set middleServo to 50 %||`` per Drag & Drop in das leere Ereignis ``||fwdButtons:on dial1 rotated||``.
+- Ziehe den blauen Block ``||fwdMotors:set middleServo to -50 %||`` per Drag & Drop in das leere Ereignis ``||fwdButtons:on dial1 rotated ↺||``.
 - Hinweis: Der Motorblock sollte nun blau werden!
     hint~
 
 ```block
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-    fwdMotors.setAngleAndWait(fwdBase.middleServo, 50)
+    fwdMotors.setSpeed(fwdBase.middleServo, -50)
 })
 ```
 
 ## Modifizieren Schritt 4
 
-Klicke auf die Schaltfläche `|Download|`, um den Code in Ihr Projekt herunterzuladen.
+Klicke auf die Schaltfläche `|Download|`, um den Code auf den Calliope mini herunterzuladen.
 ```block
-fwdButtons.touch1.onEvent(jacdac.ButtonEvent.Down, function () {
-    fwdMotors.setAngleAndWait(fwdBase.middleServo, 0)
+fwdButtons.dialButton1.onEvent(jacdac.ButtonEvent.Down, function () {
+    fwdMotors.setSpeed(fwdBase.middleServo, 0)
 })
-
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Clockwise, function () {
-    fwdMotors.setAngleAndWait(fwdBase.middleServo, -50)
+    fwdMotors.setSpeed(fwdBase.middleServo, 50)
 })
-
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-    fwdMotors.setAngleAndWait(fwdBase.middleServo, 50)
+	fwdMotors.setSpeed(fwdBase.middleServo, -50)
 })
 ```
 
@@ -224,4 +221,4 @@ Nenne eine Sache, die du heute gelernt hast?
 
 Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-Besuch auch mal calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
+Auf der Internetseite **calliope.cc**, findest du weitere inspirierende Ideen und Projekte!
