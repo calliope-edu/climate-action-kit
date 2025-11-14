@@ -1,7 +1,7 @@
 # Trübungsmessgeräte – Tutorial
 
 ```package
-fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
+fwd-climate-action-kit=github:calliope-edu/climate-action-kit
 datalogger=datalogger
 v3
 ```
@@ -96,6 +96,7 @@ Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt
 
 Schaue dir dein physisches Projekt an. Kannst du die Hauptteile des NTU-Sensors identifizieren?
 
+~hint Mehr erfahren!
 
 Denke daran:
 
@@ -117,9 +118,9 @@ Schaue dir den Code im Arbeitsbereich an. Was glaubst du, wird dieser Code bewir
  
 ~hint Mehr erfahren!
 
--   Die beiden Blöcke `||fwdSensors:LED ring||` in `||basic:on start||` weisen den Calliope mini an, die Lichtquelle unseres NTU-Sensors auf volle Helligkeit zu schalten.
+-   Die beiden `||fwdLights:LED-Ring||` Blöcke werden `||basic:beim Start||` ausgeführt und weisen den Calliope mini an, die Lichtquelle unseres NTU-Sensors auf volle Helligkeit zu schalten.
 
-- `||input:on button A pressed||` Der vom Sonnensensor erfasste Wert wird auf den LEDs des Calliope mini angezeigt. Auf diese Weise können wir unseren Messwert ablesen!
+- `||input:Wenn Knopf A geklickt||` wird, wird der vom Solarsensor erfasste Wert auf der LED Matrix des Calliope mini angezeigt. Auf diese Weise kannst du deine Messwert ablesen!
 
 hint~
 
@@ -135,7 +136,7 @@ input.onButtonPressed(Button.A, function () {
 
 Stelle die vorbereiteten Wasserproben zur Messung bereit.
 
-Denke daran, dass unsere Probe mit geringerer Trübung Leitungswasser sein sollte, während die zweite Probe mit höherer Trübung Leitungswasser mit einem Esslöffel Backpulver sein soll.
+Denk daran: Die Probe mit der geringen Trübung besteht aus purem Leitungswasser. Für die stärker getrübte Probe mischst du einen Esslöffel Backpulver in das Leitungswasser.
 
 ## Schritt 7
 
@@ -184,4 +185,4 @@ Bevor wir zum Schluss kommen:
 
 Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-Besuch auch mal calliope.cc, um weitere inspirierende Ideen und Projekte zu entdecken!
+Auf der Internetseite **calliope.cc** findest du weitere inspirierende Ideen und Projekte!
