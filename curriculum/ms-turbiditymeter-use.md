@@ -21,23 +21,74 @@ Heute bauen wir unseren eigenen **NTU-Sensor**, um die Trübung von Wasserproben
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbidity-render.webp" alt="Full turbidity meter render" style="display: block; width: 100%; margin:auto;">
 Ein **NTU-Sensor** (Nephelometric Turbidity Unit) ist ein Sensor, der zur Messung der Trübung in Flüssigkeiten verwendet wird. Die Einheit NTU wird in der Wasseraufbereitung verwendet, um die Trübung zu messen.
 
-## Schritt 1 @showdialog
+## Bauanleitung Schritt 1 @showdialog
+
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs01.webp)
+
+## Bauanleitung Schritt 2 @showdialog
+
+![sbs2](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs02.webp)
+
+## Bauanleitung Schritt 3 @showdialog
+
+![sbs3](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs03.webp)
+
+## Bauanleitung Schritt 4 @showdialog
+
+![sbs4](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs04.webp)
+
+## Bauanleitung Schritt 5 @showdialog
+
+![sbs5](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs05.webp)
+
+## Bauanleitung Schritt 6 @showdialog
+
+![sbs6](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs06.webp)
+
+## Bauanleitung Schritt 7 @showdialog
+
+![sbs7](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs07.webp)
+
+## Bauanleitung Schritt 8 @showdialog
+
+![sbs8](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs08.webp)
+
+## Bauanleitung Schritt 9 @showdialog
+
+![sbs9](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs09.webp)
+
+## Bauanleitung Schritt 10 @showdialog
+
+![sbs10](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs10.webp)
+
+## Bauanleitung Schritt 11 @showdialog
+
+![sbs11](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs11.webp)
+
+## Bauanleitung Schritt 12 @showdialog
+
+[sbs12](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs12.webp)
+
+## Aktivität 2: Code erstellen @showdialog
+
 Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
 Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
+
+## Code Schritt 1 @showdialog
 
 WICHTIG! Vergewissere dich, dass dein Climate Action Kit Breakout Board eingeschaltet und dein Calliope mini an einem Computer angeschlossen ist.
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pluganim.webp" alt="Plug Calliope mini into USB port on computer" style="display: block; width: 40%; margin:auto;">
 
-## Schritt 2 @showdialog
+## Code Schritt 2 @showdialog
 
 Klicke auf die drei Punkte neben der Schaltfläche `|Download|` und dann auf „Gerät verbinden“.
 Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
 
-## Schritt 3
+## Code Schritt 3
 
 Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
