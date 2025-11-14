@@ -104,7 +104,7 @@ Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
 <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
 
-## Code schritt 3
+## Code Schritt 3
 
 Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
