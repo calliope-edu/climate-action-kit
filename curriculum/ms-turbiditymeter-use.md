@@ -67,7 +67,7 @@ Ein **NTU-Sensor** (Nephelometric Turbidity Unit) ist ein Sensor, der zur Messun
 
 ## Bauanleitung Schritt 12 @showdialog
 
-[sbs12](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs12.webp)
+![sbs12](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-turbiditymeter-sbs12.webp)
 
 ## Aktivität 2: Code erstellen @showdialog
 
