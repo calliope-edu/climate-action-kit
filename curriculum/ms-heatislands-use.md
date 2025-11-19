@@ -1,70 +1,131 @@
-# Urban Heat Islands - Use Tutorial
+# Städtische Wärmeinseln - Tutorial
 
 ```package
-fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
+fwd-climate-action-kit=github:calliope-edu/climate-action-kit
 datalogger=datalogger
+v3
 ```
 
 ```template
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
     datalogger.deleteLog()
 })
-datalogger.setColumnTitles("Temperature")
+datalogger.setColumnTitles("Temperatur")
 loops.everyInterval(60000, function () {
-    datalogger.log(datalogger.createCV("Temperature", input.temperature()))
+    datalogger.log(datalogger.createCV("Temperatur", input.temperature()))
 })
 basic.forever(function () {
     basic.showNumber(input.temperature())
 })
 ```
 
-## Urban Heat Islands - Use Tutorial @showdialog
+## Städtische Wärmeinseln - Tutorial @showdialog
 
-Today, we are going to compare how quickly a damp, light model city and a dry, dark model city heat up.
+Heute werden wir vergleichen, wie schnell sich eine feuchte, helle Modell-Stadt und eine trockene, dunkle Modell-Stadt erwärmen.
 
-We'll use the micro:bit's temperature sensor to collect data and learn more about how colour and moisture levels impact the urban heat island effect.
+Wir benutzen den Temperatursensor vom Calliope mini, um Daten zu sammeln und herauszufinden, wie Farben und Feuchtigkeit die Temperatur in der Stadt beeinflussen. In Städten kann ein Wärmeinsel-Effekt entstehen, weil Gebäude und Straßen Wärme stärker aufnehmen und speichern (absorbieren) und dadurch die Umgebung wärmer wird.
 
 <p float="middle">
-  <img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-heatislands-render.webp" alt="Base model city render" width="33%"/>
-  <img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-heatislands-white-render.webp" alt="White model city render" width="33%"/> 
-  <img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-heatislands-black-render.webp" alt="Black model city render" width="33%"/>
+  <img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-comparison.webp" alt="Base model city render" width="100%"/>
 </p>
 
-## Step 1 @showdialog
+## Bauanleitung Schritt 1 @showdialog
 
-IMPORTANT! Make sure your Climate Action Kit Breakout Board is turned on and your micro:bit is plugged into your computer.
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs01.webp)
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pluganim.webp" alt="Plug micro:bit into USB port on computer" style="display: block; width: 40%; margin:auto;">
+## Bauanleitung Schritt 2 @showdialog
 
-## Step 2 @showdialog
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs02.webp)
 
-Click the three dots beside the `|Download|` button, then click on _Connect Device_.
-Next, follow the steps to pair your micro:bit.
+## Bauanleitung Schritt 3 @showdialog
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs03.webp)
 
-## Step 3
+## Bauanleitung Schritt 4 @showdialog
 
-Click the `|Download|` button to download the code to your micro:bit.
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs04.webp)
 
-## Step 4
+## Bauanleitung Schritt 5 @showdialog
 
-Take a look at the code in the workspace. What do you think this code will do?
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs05.webp)
 
-~hint Tell me more!
+## Bauanleitung Schritt 6 @showdialog
 
--   We are using the [Data Logger extension](https://microbit.org/get-started/user-guide/data-logging/) to track and save data from the [temperature sensor](https://microbit.org/get-started/features/sensors/#temperature-sensor) on the micro:bit.
--   Every _60,000 milliseconds (60 seconds or 1 minute)_, the micro:bit will take a temperature reading and save it to the data log.
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs06.webp)
 
--   The `||basic:forever||` loop will ensure the micro:bit continuously displays the current temperature on its LED screen.
+## Bauanleitung Schritt 7 @showdialog
 
--   The `||input:on logo pressed||` block will clear any previously logged data when the micro:bit logo is pressed.
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs07.webp)
+
+## Bauanleitung Schritt 8 @showdialog
+
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs08.webp)
+
+## Fertig! @showdialog
+
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs09.webp)
+
+## Modell-Stadt 1 @showdialog
+
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs10.webp)
+
+Bedecke die erste Modell-Stadt mit feuchtem, weißem Papier, um reflektierende Baumaterialien und Dachgärten nachzuahmen. Du kannst dafür auch ausgewrungene Papiertücher verwenden.
+
+## Modell-Stadt 2 @showdialog
+
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs11.webp)
+
+Bedecke die zweite Modell-Stadt mit trockenem, schwarzem Papier, um typische dunkle Baumaterialien darzustellen.
+
+## Weitere Modelle  @showdialog
+
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs12.webp)
+
+Du kannst auch weitere Modelle bauen, um zu testen, wie Faktoren neben Farbe und Feuchtigkeit den Wärmeinsel-Effekt beeinflussen.
+
+## Weitere Modelle @showdialog
+
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-heatislands-sbs13.webp)
+
+## Aktivität 1: Code erstellen @showdialog
+
+Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
+
+Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
+
+## Schritt 1 @showdialog
+
+WICHTIG! Vergewissere dich, dass dein Climate Action Kit Breakout Board eingeschaltet und dein Calliope mini an einem Computer angeschlossen ist.
+
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pluganim.webp" alt="Plug Calliope mini into USB port on computer" style="display: block; width: 40%; margin:auto;">
+
+## Schritt 2 @showdialog
+
+Klicke auf die drei Punkte neben der Schaltfläche `|Download|` und dann auf „Gerät verbinden“.
+Befolge anschließend die Schritte zum Koppeln des Calliope mini.
+
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
+
+## Schritt 3
+
+Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
+
+## Schritt 4
+
+Schau dir den Code im Arbeitsbereich an. Was glaubst du, was dieser Code macht?
+
+~hint Mehr erfahren!
+
+-   Wir benutzen die [Datalogger Erweiterung](https://makecode.calliope.cc/reference/datalogger$), um Daten vom [Temperatursensor](https://calliope.cc/calliope-mini/uebersicht#temperatur) des Calliope mini zu messen und zu speichern.
+-   Alle 60.000 Millisekunden (60 Sekunden oder 1 Minute) misst der Calliope mini die Temperatur und speichert sie im Datenlog.
+-   Die `||basic:dauerhaft|` Schleife sorgt dafür, dass der Calliope mini die aktuelle Temperatur immer auf der LED-Matrix anzeigt.
+-   Der Block `||input:wenn Logo gedrückt|` löscht alle zuvor gespeicherten Daten, wenn du das Logo auf der Rückseite vom Calliope mini drückst.
 
 hint~
 
 ```block
 loops.everyInterval(60000, function () {
-    datalogger.log(datalogger.createCV("Temperature", input.temperature()))
+    datalogger.log(datalogger.createCV("Temperatur", input.temperature()))
 })
 basic.forever(function () {
     basic.showNumber(input.temperature())
@@ -74,46 +135,52 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 })
 ```
 
-## Step 5
+## Schritt 5
 
-It's time to set up our experiment!
+Es ist Zeit, das Experiment vorzubereiten!
 
-Unplug your micro:bit. Place the your first model city under your chosen light source (e.g. heat lamp, window sill, outdoors). Position it so it receives direct light.
+Trenne den Calliope mini vom Computer.
+Stelle deine erste Modell-Stadt unter deine gewählte Lichtquelle (z. B. Lampe, Fensterbank, draußen).
+Positioniere deine Stadt so, dass sie direktes Licht bekommt.
 
-## Step 6
+## Schritt 6
 
-Press the micro:bit logo to erase any old data. Then, let the micro:bit collect temperature readings for a set period of time (e.g. 2 hours).
+Verbinde den Calliope mini wieder mit dem Computer oder einer anderen Stromquelle.
+Drücke das Logo vom Calliope mini, um alte Daten zu löschen. Lass dann den Calliope mini für eine festgelegte Zeit (z.B. 2 Stunden) die Temperatur messen.
 
-## Step 7
+## Schritt 7
 
-After the experiment, download your data by plugging the micro:bit back into your computer and following [these instructions](https://microbit.org/get-started/user-guide/data-logging/#reading-data).
+Lade nach dem Experiment deine Daten herunter, indem du den Calliope mini wieder an den Computer anschließt und [diesen Anweisungen](https://calliope.cc/schulen/fortbildungen/datenverarbeitung) folgst.
 
-## Step 8
+## Schritt 8
 
-Repeat steps 1-7 with the second model city. Ensure the model is the same distance from the light source as before.
+Wiederhole die letzten Schritte mit der zweiten Modell-Stadt.
+Achte darauf, deine erste Messreihe vorher separat zu speichern und dass das Modell denselben Abstand zur Lichtquelle hat wie zuvor.
 
-## Step 9
+## Schritt 9
 
-Analyze your data\*:
+Analysiere deine Daten\*:
 
-1. Compare the temperature data from the damp, light model and the dry, dark model.
-2. What differences do you observe in the temperature readings?
-3. What was the starting temperature of each model?
-4. How quickly did each model heat up?
-5. What was the highest temperature reached by each model?
-6. Can you explain these differences?
+1. Vergleiche die Temperaturdaten vom feuchten, hellen Modell und vom trockenen, dunklen Modell.
+2. Welche Unterschiede siehst du bei den Temperaturmessungen?
+3. Wie hoch war die Starttemperatur jedes Modells?
+4. Wie schnell hat sich jedes Modell erwärmt?
+5. Welche Höchsttemperatur hat jedes Modell erreicht?
+6. Kannst du diese Unterschiede erklären?
 
-\*[Or take a look at our sample data](https://docs.google.com/spreadsheets/d/1BZM0QFmotUuUeRaMSvCKPePYzB9TCcv0LGryT8MtGmc/edit?usp=sharing)
+\*[Oder schaue dir unsere Beispieldaten an](https://docs.google.com/spreadsheets/d/1HPbwILmBtJYUxIrBu_gQfZHdcS_uosqb3iE6Cr536gk/edit?usp=share_link)
 
-## Reflection
+## Reflexion
 
-Before we wrap up:
+Bevor wir fertig sind:
 
--   Why is it important to compare data from two different models in this experiment?
--   What does this experiment teach us about how colour and moisture affect the heating of urban environments?
--   What other factors could affect temperature that we _didn't_ include in our models?
--   What are some ways that cities can use this information to design cooler, more sustainable urban spaces?
+-   Warum ist es wichtig, die Daten von zwei verschiedenen Modellen in diesem Experiment zu vergleichen?
+-   Was zeigt uns dieses Experiment darüber, wie Farbe und Feuchtigkeit die Erwärmung von Städten beeinflussen?
+-   Welche anderen Faktoren könnten die Temperatur beeinflussen, die wir in unseren Modellen _nicht_ berücksichtigt haben?
+-   Wie können Städte diese Informationen nutzen, um kühlere und nachhaltigere städtische Räume zu gestalten?
 
-## Finished
+## Fertig!
 
-Click the `|Done|` button to finish this tutorial.
+Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
+
+Auf der Internetseite **calliope.cc** findest du weitere inspirierende Ideen und Projekte!
