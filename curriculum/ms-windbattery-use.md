@@ -1,36 +1,37 @@
-# Wind Turbine Energy Storage - Use Tutorial
+# Windkraftanlage - Tutorial
 
 ```package
-fwd-climate-action=github:Forward-Education/pxt-climate-action#v1.1.0
+fwd-climate-action=github:calliope-edu/climate-action-kit
 datalogger=datalogger
 ```
 
 ```template
-fwdButtons.touch1.onEvent(jacdac.ButtonEvent.Down, function () {
-    fwdBase.middleServo.fwdSetEnabled(false)
+fwdButtons.dialButton1.onEvent(jacdac.ButtonEvent.Down, function () {
+    fwdMotors.conSetEnabled(fwdBase.middleServo, false)
 })
-fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-    fwdBase.middleServo.setSpeed(50)
+input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
+    basic.showNumber(Batteriestand)
 })
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Clockwise, function () {
-    fwdBase.middleServo.setSpeed(-50)
+    fwdMotors.setSpeed(fwdBase.middleServo, -50)
 })
-input.onButtonPressed(Button.A, function () {
-    basic.showNumber(batteryLevel)
+fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
+    fwdMotors.setSpeed(fwdBase.middleServo, 50)
 })
-batteryLevel = 0
+let Batteriestand = 0
+Batteriestand = 0
 basic.forever(function () {
-    if (fwdBase.middleServo.isEnabled() == true) {
+    if (fwdMotors.conIsEnabled(fwdBase.middleServo) == true) {
         basic.showLeds(`
             . . # . .
-            . # . # .
+            . # # # .
             # # # # #
             . # . # .
             . # # # .
-        `)
-        batteryLevel += 1
-        if (batteryLevel > 100) {
-            batteryLevel = 100
+            `)
+        Batteriestand += 1
+        if (Batteriestand > 100) {
+            Batteriestand = 100
         }
         basic.pause(2000)
     } else {
@@ -40,165 +41,168 @@ basic.forever(function () {
             . . . . .
             . . . . .
             . . . . .
-        `)
+            `)
     }
 })
 ```
 
-## Activity 1: Build Your Project @showdialog
+## Aktivität 1: Erstelle dein Projekt @showdialog
 
-Let's build our wind turbine! We will do this in three parts:
+Lasst uns eine automatisierte Windkraftanlage bauen. Wir werden dies in vier Schritten tun:
 
-1. **Build** your wind turbine
-2. **Add code** to bring it to life
-3. **Use** and **test** your wind turbine to see how it works
+1. **Bauen:** Den Prototypen konstruieren
+2. **Code erstellen:** Das Projekt zum Leben erwecken
+3. **Ausprobieren:** Herausfinden, ob der fertige Prototyp funktioniert
+4. **Modifizieren:** Das Projekt mit einer kleinen Programmieraufgabe verändern
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-render.webp" alt="Full wind turbine render" style="display: block; width: 70%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-render.webp" alt="Full sample wind tubine render" style="display: block; width: 60%; margin:auto;">
 
-## Build Step 1 @showdialog
+## Bauanleitung Schritt 1 @showdialog
 
-![sbs1](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs01.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs01.webp)
 
-## Build Step 2 @showdialog
+## Bauanleitung Schritt 2 @showdialog
 
-![sbs2](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs02.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs02.webp)
 
-## Build Step 3 @showdialog
+## Bauanleitung Schritt 3 @showdialog
 
-![sbs3](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs03.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs03.webp)
 
-## Build Step 4 @showdialog
+## Bauanleitung Schritt 4 @showdialog
 
-![sbs4](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs04.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs04.webp)
 
-## Build Step 5 @showdialog
+## Bauanleitung Schritt 5 @showdialog
 
-![sbs5](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs05.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs05.webp)
 
-## Build Step 6 @showdialog
+## Bauanleitung Schritt 6 @showdialog
 
-![sbs6](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs06.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs06.webp)
 
-## Build Step 7 @showdialog
+## Bauanleitung Schritt 7 @showdialog
 
-![sbs7](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs07.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs07.webp)
 
-## Build Step 8 @showdialog
+## Bauanleitung Schritt 8 @showdialog
 
-![sbs8](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs08.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs08.webp)
 
-## Build Step 9 @showdialog
+## Bauanleitung Schritt 9 @showdialog
 
-![sbs9](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs09.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs09.webp)
 
-## Build Step 10 @showdialog
+## Bauanleitung Schritt 10 @showdialog
 
-![sbs10](https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/ms-windsample-sbs10.webp)
+![sbs1](https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/ms-windsample-sbs10.webp)
 
-## Activity 2: Code Your Project @showdialog
+## Aktivität 2: Code erstellen @showdialog
 
-It’s time to bring your wind turbine to life with code!
+Wir müssen unser Modell mit dem Computer verbinden, damit es mit Code zum Leben erweckt werden kann!
 
-The code will be the instructions that tell our micro:bit what to do.
+Der Code enthält die Anweisungen, die unserem Calliope mini sagen, was er tun soll.
 
-## Code Step 1 @showdialog
+## Code Schritt 1 @showdialog
 
-IMPORTANT! Make sure your Climate Action Kit Breakout Board is turned on and your micro:bit is plugged into your computer.
+WICHTIG! Vergewissere sich, dass dein Climate Action Kit Breakout Board eingeschaltet und der Calliope mini an einem Computer angeschlossen ist.
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pluganim.webp" alt="Plug Calliope mini into USB port on computer" style="display: block; width: 40%; margin:auto;">
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pluganim.webp" style="display: block; width: 40%; margin:auto;">
+## Code Schritt 2 @showdialog
 
-## Code Step 2 @showdialog
+Klicke auf die drei Punkte neben der Schaltfläche `|Download|` und dann auf „Gerät verbinden“.
+Befolge anschließend die Schritte zum Koppeln des Calliope mini.
 
-Click the three dots beside the `|Download|` button, then click on _Connect Device_.
-Next, follow the steps to pair your micro:bit.
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/pairmicrobitGIF.webp"  alt="Pairing gif" style="display: block; width: 60%; margin:auto;">
+## Code Schritt 3
 
-## Code Step 3
+Klicke anschließend auf die Schaltfläche `|Download|`, um den Code vom Projekt herunterzuladen.
 
-Next, click the `|Download|` button to download the code to your project.
+## Aktivität 3: Ausprobieren @showdialog
 
-## Activity 3: Use Your Project @showdialog
+Das Tutorial ermöglicht es, Lernen in drei Projektphasen zu strukturieren: **Verwenden, Modifizieren und Erstellen.**
 
-We are now ready to **test** out our wind turbine to see how it works.
+Nachdem wir nun unsere Windkraftanlage gebaut haben, beginnen wir damit, den Beispielcode zu **verwenden**, um zu sehen, wie sie funktioniert.
 
-**Tutorial Tips**
+Während du die nächsten Schritte durchgehst:
 
-1. **Follow** the steps at the top of the screen.
-2. When you are ready for more details, click **'Tell me more!'**
-3. If you need help with the code, click the **lightbulb!**
+- **Verwende** die Anweisungen oben auf dem Bildschirm.
+- Wenn du weitere Informationen benötigst, klicke auf **„Mehr erfahren!“**.
+- Wenn du Hilfe beim Code benötigst, klicke auf die **Glühbirne**!
 
-<img src="https://raw.githubusercontent.com/forward-education/pxt-climate-action/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
+<img src="https://raw.githubusercontent.com/calliope-edu/climate-action-kit/main/tutorial-assets/tellmore_hintbox_gif.webp" style="display: block; width: 80%; margin:auto;">
 
-## Use Step 1
 
-Take a close look at the wind turbine. Can you name all its parts? What does each part represent?
+## Ausprobieren Schritt 1
 
-~hint Tell me more!
-This model uses:
+Sieh dir die Wind­kraft­anlage genau an. Kannst du alle ihre Teile benennen? Was macht jeder Teil
 
--   **Building Blocks:** one baseplate, one cube connector, one long white frame, one green circle, four small green frames, four back-to-back connectors. The building blocks help create the structure of the wind turbine.
--   **Robotic components:** a breakout board, micro:bit, continuous servo motor, and dial. These components will make our wind turbine move!
+~hint Mehr erfahren!
+Dieses Modell benutzt:
+
+-   **Bauteile:** eine Bodenplatte, einen Würfel-Verbinder, einen langen weißen Rahmen, einen grünen Kreis, vier kleine grüne Rahmen, vier Rücken-an-Rücken-Verbinder. Diese Bauteile helfen dir, die Struktur der Windkraftanlage zu bauen.
+-   **Roboter-Teile:** ein Breakout-Board, einen Calliope mini, einen kontinuierlichen Servo-Motor und einen Drehknopf. Diese Teile lassen deine Windkraftanlage bewegen!
     hint~
 
-## Use Step 2
+## Ausprobieren Schritt 2
 
-Before testing the code, let's make some _predictions_:
+Bevor wir den Code testen, machen wir ein paar _Vorhersagen_:
 
--   What do you think will happen when you turn the dial clockwise? Counterclockwise?
--   What will happen if you push the dial down?
+-   Was glaubst du, passiert, wenn du den Drehknopf im Uhrzeigersinn drehst? Und was passiert gegen den Uhrzeigersinn?
+-   Was passiert, wenn du den Drehknopf nach unten drückst?
 
-Take a look at the code below, if it helps!
+Schau dir den Code genau an!
 
-## Use Step 3
+## Ausprobieren Schritt 3
 
-Let's test it out!
+Probieren wir es aus!
 
-Turn the dial clockwise or counterclockwise. Then, press down on it. What happens?
+Drehe den Drehknopf im Uhrzeigersinn oder gegen den Uhrzeigersinn. Drücke ihn danach nach unten. Was passiert?
 
-~hint Tell me more!
+~hint Mehr erfahren!
 
--   When you turn the dial, the turbine spins in the same direction. A house is also displayed on the LEDs.
--   When you push down on the dial, the turbine stops spinning and the house disappears.
--   This simulates how wind turbines generate electricity to power houses as they spin!
+-   Wenn du den Drehknopf drehst, dreht sich die Turbine in die gleiche Richtung. Auf den LEDs siehst du auch ein Haus.
+-   Wenn du den Drehknopf nach unten drückst, hört die Turbine auf sich zu drehen und das Haus verschwindet.
+-   Das zeigt dir, wie Windkraftanlagen Strom erzeugen und Häuser mit Strom versorgen, wenn sie sich drehen!
     hint~
 
-## Use Step 4
+## Ausprobieren Schritt 4
 
-We are using two `||fwdSensors:on dial turned||` **events** to make the wind turbine spin. The `||fwdSensors:on touch down||` **event** stops the turbine.
+Wir benutzen zwei `||fwdButtons:on dial rotated||` **Ereignisse**, damit sich die Windkraftanlage dreht. Das `||fwdButtons:on dial down||` **Ereignis** stoppt die Turbine.
 
-In this scenario, the dial represents the wind!
+In diesem Beispiel steht der Drehknopf für den Wind!
 
 ```blocks
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Counterclockwise, function () {
-    fwdBase.middleServo.setSpeed(50)
+    fwdMotors.setSpeed(fwdBase.middleServo, 50)
 })
 fwdButtons.dial1.onRotated(fwdEnums.ClockwiseCounterclockwise.Clockwise, function () {
-    fwdBase.middleServo.setSpeed(-50)
+    fwdMotors.setSpeed(fwdBase.middleServo, -50)
 })
 
-fwdButtons.touch1.onEvent(jacdac.ButtonEvent.Down, function () {
-    fwdBase.middleServo.fwdSetEnabled(false)
+fwdButtons.dialButton1.onEvent(jacdac.ButtonEvent.Down, function () {
+    fwdMotors.conSetEnabled(fwdBase.middleServo, false)
 })
 ```
 
-## Use Step 5
+## Ausprobieren Schritt 5
 
-We are using a **conditional statement** to turn on the house lights whenever the turbine is generating electricity.
+Wir benutzen eine **Wenn-dann-Bedingung**, um die Haustiere einzuschalten, wenn die Turbine Strom erzeugt.
 
-Can you find the conditional statement in our code?
+Erkennst du die Wenn-dann-Bedingung im Code?
 
-~hint Tell me more!
+~hint Mehr erfahren!
 
--   Conditional statements are if/then rules that help our micro:bit make decisions based on certain criteria. We use if/then rules in real life all the time! For example, "If it is raining, then I open my umbrella!"
--   Here, we've told the micro:bit: "If the wind turbine is spinning, then light up the house!"
+-   Wenn-dann-Anweisungen sind Regeln, die dem Calliope mini helfen, Entscheidungen zu treffen. Solche Regeln benutzen wir auch im echten Leben! Zum Beispiel: „Wenn es regnet, dann mache ich meinen Regenschirm auf!“
+-   Hier haben wir dem Calliope mini gesagt: „Wenn sich die Windkraftanlage dreht, dann soll das Haus leuchten!“
     hint~
 
 ```block
-if (fwdBase.middleServo.isEnabled() == true) {
+if (fwdMotors.conIsEnabled(fwdBase.middleServo) == true) {
         basic.showLeds(`
             . . # . .
-            . # . # .
+            . # # # .
             # # # # #
             . # . # .
             . # # # .
@@ -214,58 +218,58 @@ if (fwdBase.middleServo.isEnabled() == true) {
     }
 ```
 
-## Use Step 6
+## Ausprobieren Schritt 6
 
-Take a look at your code one more time. What do you think will happen when you press A?
+Sieh dir deinen Code noch einmal an. Was glaubst du, passiert, wenn du A drückst?
 
-Try it now.
+Probier es jetzt aus.
 
-~hint Tell me more!
+~hint Mehr erfahren!
 
--   Pressing A will briefly display a number on the LEDs of the micro:bit.
+-   Wenn du A drückst, zeigt der Calliope mini für einen Moment eine Zahl auf der LED-Matrix an.
     hint~
 
 ```blocks
 input.onButtonPressed(Button.A, function () {
-    basic.showNumber(batteryLevel)
+    basic.showNumber(Batteriestand)
 })
 ```
 
-## Use Step 7
+## Ausprobieren Schritt 7
 
-Leave your wind turbine running for 10 seconds. Then press A again. What happened to the number on the LEDs?
+Lass deine Windkraftanlage 10 Sekunden lang laufen. Drücke dann noch einmal A. Was ist mit der Zahl auf der LED-Matrix passiert?
 
-~hint Tell me more!
+~hint Mehr erfahren!
 
--   The number increased!
+-   Die Zahl ist größer geworden!
     hint~
 
-## Use Step 8
+## Ausprobieren Schritt 8
 
-Whenever our wind turbine spins, it powers the house, but also slowly "charges" a battery.
+Immer wenn sich unsere Windkraftanlage dreht, versorgt sie das Haus mit Strom und „lädt“ gleichzeitig langsam eine Batterie auf.
 
-We've created a **variable** in our program to track battery charge. At the start of the program, the `||variables:batteryLevel||` is '0'. As the turbine spins, the charge increases by 1% every 2 seconds.
+Wir haben in unserem Programm eine **Variable** erstellt, um den Batteriestand zu verfolgen. Am Anfang des Programms ist der `||variables:Batteriestand||` '0'. AWährend sich die Turbine dreht, steigt der Stand alle 2 Sekunden um 1%.
 
-~hint Tell me more!
+~hint Mehr erfahren!
 
--   The `||variables:change batteryLevel by 1||` block increases the variable by 1. This happens every 2 seconds because of the `||basic:pause||` block.
--   This simulates how real wind turbines store energy in batteries for later use.
+-   Der Block `||variables:ändere Batteriestand um 1||` erhöht die Variable um 1. Das passiert alle 2 Sekunden wegen des `||basic:pausieren||` Blocks.
+-   So wird simuliert, wie echte Windkraftanlagen Energie in Batterien speichern, um sie später zu nutzen.
     hint~
 
 ```blocks
 // @highlight
-batteryLevel = 0
+Batteriestand = 0
 basic.forever(function () {
-    if (fwdBase.middleServo.isEnabled() == true) {
+    if (fwdMotors.conIsEnabled(fwdBase.middleServo) == true) {
         basic.showLeds(`
             . . # . .
-            . # . # .
+            . # # # .
             # # # # #
             . # . # .
             . # # # .
             `)
         // @highlight
-        batteryLevel += 1
+        Batteriestand += 1
         // @highlight
         basic.pause(2000)
     } else {
@@ -280,26 +284,27 @@ basic.forever(function () {
 })
 ```
 
-## Use Step 9
+## Ausprobieren Schritt 9
 
-If the battery starts empty (0%) and charges an additional 1% every 2 seconds, how long will it take to fully charge (100%)?
+Die Batterie startet bei 0% und lädt alle 2 Sekunden um 1% auf. Wir wollen wissen, wie lange es dauert, bis sie 100% erreicht.
 
-How could you solve this problem?
+Wie könnte man das Problem lösen?
 
-## Use Step 10
+## Ausprobieren Schritt 10
 
-Re-download the code to reset your battery. Then, turn the dial and see how long it takes for the battery to reach 100%. Was your calculation accurate?
+Lade den Code noch einmal herunter, um deine Batterie zurückzusetzen.
+Drehe dann den Drehknopf und beobachte, wie lange es dauert, bis die Batterie 100% erreicht. War deine Rechnung richtig?
 
-## Congratulations! @showdialog
+## Herzlichen Glückwunsch! @showdialog
 
-You've completed the activity!
+Du hast hast diese Aktivität abgeschlossen!
 
-## Reflection @showdialog
+## Analyse @showdialog
 
-List 2 new things you learned today.
+Nenne eine Sache, die du heute gelernt hast?
 
-What is one thing you want to learn more about?
+## Fertig!
 
-## Finished! @showdialog
+Du kannst auf die Schaltfläche `|Done|` klicken, um das Tutorial zu beenden.
 
-In the next step, you can click the `|Done|` button to finish the tutorial.
+Auf der Internetseite **calliope.cc** findest du weitere inspirierende Ideen und Projekte!
