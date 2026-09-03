@@ -1,6 +1,6 @@
 {
     "name": "fwd-climate-action",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Forward Education's Climate Action Kit.",
     "license": "MIT",
     "dependencies": {
